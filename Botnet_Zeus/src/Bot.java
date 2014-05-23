@@ -5,9 +5,11 @@ import java.net.URL;
 import java.net.UnknownHostException;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Map;
 import java.util.Queue;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 public class Bot {
@@ -28,6 +30,33 @@ public class Bot {
 		} else {
 			log.addLogEntry("Bot iniatialization fully completed");
 		}
+	}
+
+	public Bot(String aux) {
+		log = new LogWriter(aux);
+		if (!initializeBot(aux)) {
+			log.addLogEntry("An erro occurred on bot iniatialization, and it was terminaded");
+			System.exit(1);
+		} else {
+			log.addLogEntry("Bot iniatialization fully completed");
+		}
+	}
+
+	private boolean initializeBot(String aux) {
+		handle = new XMLHandler(log, aux);
+		myPeerInfo = handle.getMyPeerInfo();
+		peersTable = handle.getHardcodedPeerList();
+		proxiesTable = handle.getHardcodedProxyPeerList();
+		if (handle == null || myPeerInfo == null || peersTable == null
+				|| proxiesTable == null) {
+			log.addLogEntry("Boolean values if they are working" + "Handle: "
+					+ String.valueOf(handle == null) + "MyPeer: "
+					+ String.valueOf(myPeerInfo == null) + "peersTable: "
+					+ String.valueOf(peersTable == null) + "proxiesTable"
+					+ String.valueOf(proxiesTable == null));
+			return false;
+		}
+		return true;
 	}
 
 	/*
@@ -56,6 +85,7 @@ public class Bot {
 	public boolean openConnection() {
 		int port = myPeerInfo.port;
 		// open doors to other peers connect
+
 		TCPServer tcpServer = new TCPServer(port, handle);
 		tcpServer.start();
 		UDPServer s = new UDPServer(port, handle);
@@ -78,25 +108,33 @@ public class Bot {
 	public boolean updatePeerList() {
 
 		Queue<Peer> queue = new LinkedList<Peer>();
-		HashSet<Integer> visitedId = new HashSet<Integer>();
+		Set<Integer> visitedId = new HashSet<Integer>();
 
 		// check conncectivity with peersTable peers
-		for (Map.Entry<Integer, Peer> entry : peersTable.entrySet()) {
+		Iterator<Map.Entry<Integer, Peer>> it = peersTable.entrySet()
+				.iterator();
+
+		while (it.hasNext()) {
+			Map.Entry<Integer, Peer> entry = it.next();
 			Peer peer = entry.getValue();
 			int id = entry.getKey();
 			visitedId.add(id);
 
-			if (peer.getVersion() != -1)
+			if (peer.getVersion() != -1) {
 				queue.add(peer);
-			else
-				peersTable.remove(id);
+			} else {
+				System.out.println("removing"+id+"!");
+				it.remove();
+			}
 		}
+
 		// check conncectivity with hardcoded peers
 		for (Map.Entry<Integer, Peer> entry : handle.getHardcodedPeerList()
 				.entrySet()) {
 			Peer peer = entry.getValue();
 			int id = entry.getKey();
-			if (!visitedId.add(id)) {
+
+			if (visitedId.add(id) && id!= handle.getMyId()) {
 				if (peer.getVersion() != -1) {
 					queue.add(peer);
 					peersTable.put(id, peer);
@@ -104,14 +142,20 @@ public class Bot {
 			}
 		}
 		// get peers from peerlists of peers
-		while (!queue.isEmpty() && peersTable.size() < 50) {
+		while (!queue.isEmpty()) {
+			
+			Peer peerAux = queue.remove();
+			System.out.println("queue"+peerAux.host+" "+peerAux.port);
 
-			HashMap<Integer, Peer> list = queue.remove().getPeerList();
+			HashMap<Integer, Peer> list = peerAux.getPeerList();
+
+			if (list == null)
+				continue;
 
 			for (Map.Entry<Integer, Peer> entry : list.entrySet()) {
 				Integer id = entry.getKey();
 				Peer peer = entry.getValue();
-				if (!visitedId.add(id)) {
+				if (visitedId.add(id) && id!= handle.getMyId()) {
 					if (peer.getVersion() != -1) {
 						queue.add(peer);
 						peersTable.put(id, peer);
@@ -127,17 +171,17 @@ public class Bot {
 			return true;
 		}
 		// save list to file
-		String content = "<peerlist>/n";
+		String content = "<peerlist>\n";
 		for (Map.Entry<Integer, Peer> entry : peersTable.entrySet()) {
 			Integer id = entry.getKey();
 			Peer peer = entry.getValue();
-			content += "<connection id=\"" + id + "\">/n" + "<port>"
-					+ peer.port + "</port>/n" + "<host>" + peer.host
-					+ "</host>/n" + "</connection>/n";
+			content += "<connection id=\"" + id + "\">\n" + "<port>"
+					+ peer.port + "</port>\n" + "<host>" + peer.host
+					+ "</host>\n" + "</connection>\n";
 		}
 		content += "</peerlist>";
 		handle.writePeerList(content);
-		nextAction = "cofiguration";
+		nextAction = "configuration";
 		return true;
 	}
 
@@ -178,7 +222,7 @@ public class Bot {
 			int peerVersion = peer.getVersion();
 			boolean isPeerReachable = false;
 
-			if (peerVersion == -1) {//not reachable
+			if (peerVersion == -1) {// not reachable
 				for (int i = 1; i <= 5; i++) {
 					peerVersion = peer.getVersion();
 					if (peerVersion != -1) {
@@ -231,19 +275,17 @@ public class Bot {
 
 	public boolean timer() {
 		try {
-			TimeUnit.MINUTES.sleep(1);//TODO:change to 30 minutes
-
-			if (peersTable.size() < 2) {
-				nextAction = "updatePeerList";
-				return true;
-			} else {
-				nextAction = "verificationRound()";
-				return true;
-			}
+			TimeUnit.MINUTES.sleep(1);// TODO:change to 30 minutes
 		} catch (InterruptedException ex) {
 			log.addLogEntry("error" + ex);
-			return false;
+			System.exit(1);
 		}
+		if (peersTable.size() < 2) {
+			nextAction = "updatePeerList";
+		} else {
+			nextAction = "verificationRound";
+		}
+		return true;
 	}
 
 	public boolean verificationRound() {

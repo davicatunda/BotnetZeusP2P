@@ -1,7 +1,3 @@
-import java.io.BufferedInputStream;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
@@ -9,11 +5,11 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 public class TCPServer extends Thread {
-	String fileToSend = null;
+	XMLHandler handle = null;
 	private int port = 0;
 
 	public TCPServer(int port, XMLHandler handle) {
-		this.fileToSend = handle.malwarePath;
+		this.handle = handle;
 		this.port = port;
 	}
 
@@ -48,7 +44,7 @@ public class TCPServer extends Thread {
 
 					switch (message) {
 					case "getConfFile":
-						sendFile(outStream);
+						handle.sendFile(outStream);
 						break;
 					default:
 						System.out.println("Cliente>> " + message);
@@ -70,25 +66,4 @@ public class TCPServer extends Thread {
 		}
 	}
 
-	private void sendFile(ObjectOutputStream outStream) {
-		File myFile = new File(fileToSend);
-		byte[] mybytearray = new byte[(int) myFile.length()];
-
-		FileInputStream fis = null;
-
-		try {
-			fis = new FileInputStream(myFile);
-		} catch (FileNotFoundException ex) {
-			// Do exception handling
-		}
-		BufferedInputStream bis = new BufferedInputStream(fis);
-
-		try {
-			bis.read(mybytearray, 0, mybytearray.length);
-			outStream.write(mybytearray, 0, mybytearray.length);
-			outStream.flush();
-		} catch (IOException ex) {
-			// Do exception handling
-		}
-	}
 }

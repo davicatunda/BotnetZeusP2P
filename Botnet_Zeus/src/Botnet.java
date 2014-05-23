@@ -12,6 +12,7 @@ public class Botnet {
 		b.openConnection();
 		String nextAction = "updatePeerList";
 		while(true){
+			System.out.println("-------------------"+nextAction);
 			switch(nextAction){
 			case "updatePeerList":
 				b.updatePeerList();

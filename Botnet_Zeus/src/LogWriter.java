@@ -7,9 +7,15 @@ import java.text.SimpleDateFormat;
 
 
 public class LogWriter {
-	public String startData = null;
+	
+	String logPath = "C:\\BotSimulator\\Logs";
+	String startData = null;
 	
 	public LogWriter (){
+		initializeLog();
+	}
+	public LogWriter (String aux){
+		logPath = aux + "\\Logs";
 		initializeLog();
 	}
 	
@@ -21,7 +27,7 @@ public class LogWriter {
 		SimpleDateFormat formatarDate = new SimpleDateFormat(
 				"yyyy-MM-dd_HH_mm_ss");
 		String presentDate = formatarDate.format(data);
-		presentDate = "C:\\BotSimulator\\LOG_" + presentDate + ".txt";
+		presentDate = logPath+"\\LOG_" + presentDate + ".txt";
 		File file = new File(presentDate);
 
 		startData = presentDate;

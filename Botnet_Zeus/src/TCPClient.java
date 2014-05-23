@@ -8,7 +8,7 @@ public class TCPClient {
 	int port;
 	public TCPClient (String IP, int port){
 		this.IP=IP;
-		this.port=port;
+		this.port = port;
 	}
 
     public Object sendRequest(String request){

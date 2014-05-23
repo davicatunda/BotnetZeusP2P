@@ -2,6 +2,7 @@ import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
+import java.util.HashMap;
 import java.util.Map;
 
 public class UDPServer extends Thread {
@@ -27,13 +28,13 @@ public class UDPServer extends Thread {
 
 				String request = new String(receivePacket.getData(), 0,
 						receivePacket.getLength());
-				String response="";
+				String response = "";
 				switch (request) {
 				case "peerListRequest":
-					 response = sendPeerList();
+					response = sendPeerList();
 					break;
 				case "getVersion":
-					response = sendVersion();
+					response = "" + handle.getVersion();
 					break;
 				default:
 					System.out.println("Cliente>> " + request);
@@ -44,7 +45,7 @@ public class UDPServer extends Thread {
 				System.out.println("RECEIVED: " + request);
 				InetAddress IPAddress = receivePacket.getAddress();
 				sendData = response.getBytes();
-				
+
 				DatagramPacket sendPacket = new DatagramPacket(sendData,
 						sendData.length, IPAddress, receivePacket.getPort());
 				serverSocket.send(sendPacket);
@@ -56,16 +57,15 @@ public class UDPServer extends Thread {
 		}
 	}
 
-	private String sendVersion() {
-		return ""+handle.getVersion();
-	}
-
 	private String sendPeerList() {
 		String response = "";
-		for (Map.Entry<Integer, Peer> entry : handle.getHardcodedPeerList().entrySet()) {
+		HashMap<Integer, Peer> updatedPeerList = handle.getUpdatedPeerList();
+		if (updatedPeerList == null)
+			return "peerListIsEmpty";
+		for (Map.Entry<Integer, Peer> entry : updatedPeerList.entrySet()) {
 			Peer peer = entry.getValue();
 			int id = entry.getKey();
-			response += id + " " + peer.port + " " + peer.host + "/n";
+			response += id + " " + peer.port + " " + peer.host + "\n";
 		}
 		return response;
 

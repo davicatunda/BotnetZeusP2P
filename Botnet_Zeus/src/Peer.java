@@ -32,6 +32,8 @@ public class Peer {
 	public HashMap<Integer, Peer> getPeerList() {
 		HashMap<Integer, Peer> peerList = new HashMap<Integer, Peer>();
 		String response = (String) udp.sendRequest("peerListRequest");
+		if(response.equals("peerListIsEmpty"))
+			return null;
 		Scanner in = new Scanner(response);
 		while (in.hasNext()) {
 			int id = in.nextInt();
