@@ -1,0 +1,32 @@
+C:\BotSimulator\LOG_2014-06-02_11_12_10.txt : Info file exists
+C:\BotSimulator\LOG_2014-06-02_11_12_11.txt : My Peer info2, Port:5052, Host:127.0.0.1
+C:\BotSimulator\LOG_2014-06-02_11_12_11.txt : Peer 1, 5051,127.0.0.1added to the peer table
+C:\BotSimulator\LOG_2014-06-02_11_12_11.txt : Proxy Table is empty
+C:\BotSimulator\LOG_2014-06-02_11_12_11.txt : Bot iniatialization fully completed
+C:\BotSimulator\LOG_2014-06-02_11_12_11.txt : Opening connections
+C:\BotSimulator\LOG_2014-06-02_11_12_11.txt : ----------- Running action updatePeerList ----------------
+C:\BotSimulator\LOG_2014-06-02_11_12_11.txt : Peer 1, 5051,127.0.0.1added to the peer table
+C:\BotSimulator\LOG_2014-06-02_11_12_31.txt : ----------- Running action configuration ----------------
+C:\BotSimulator\LOG_2014-06-02_11_12_31.txt : Info file exist
+C:\BotSimulator\LOG_2014-06-02_11_12_31.txt : Malware info found
+C:\BotSimulator\LOG_2014-06-02_11_12_31.txt : ----------- Running action timer ----------------
+C:\BotSimulator\LOG_2014-06-02_11_13_31.txt : ----------- Running action verificationRound ----------------
+C:\BotSimulator\LOG_2014-06-02_11_13_31.txt : Info file exist
+C:\BotSimulator\LOG_2014-06-02_11_13_31.txt : Malware info found
+C:\BotSimulator\LOG_2014-06-02_11_13_31.txt : ----------- Running action timer ----------------
+C:\BotSimulator\LOG_2014-06-02_11_13_33.txt : Info file exist
+C:\BotSimulator\LOG_2014-06-02_11_13_33.txt : Malware info found
+C:\BotSimulator\LOG_2014-06-02_11_13_53.txt : Peer List file exists
+C:\BotSimulator\LOG_2014-06-02_11_13_53.txt : Peer 1, 5051,127.0.0.1added to the peer table
+C:\BotSimulator\LOG_2014-06-02_11_13_53.txt : Info file exist
+C:\BotSimulator\LOG_2014-06-02_11_13_53.txt : Malware info found
+C:\BotSimulator\LOG_2014-06-02_11_14_31.txt : ----------- Running action verificationRound ----------------
+C:\BotSimulator\LOG_2014-06-02_11_14_31.txt : Info file exist
+C:\BotSimulator\LOG_2014-06-02_11_14_31.txt : Malware info found
+C:\BotSimulator\LOG_2014-06-02_11_14_31.txt : ----------- Running action timer ----------------
+C:\BotSimulator\LOG_2014-06-02_11_14_53.txt : Info file exist
+C:\BotSimulator\LOG_2014-06-02_11_14_53.txt : Malware info found
+C:\BotSimulator\LOG_2014-06-02_11_15_31.txt : ----------- Running action verificationRound ----------------
+C:\BotSimulator\LOG_2014-06-02_11_15_31.txt : Info file exist
+C:\BotSimulator\LOG_2014-06-02_11_15_31.txt : Malware info found
+C:\BotSimulator\LOG_2014-06-02_11_15_31.txt : ----------- Running action timer ----------------
