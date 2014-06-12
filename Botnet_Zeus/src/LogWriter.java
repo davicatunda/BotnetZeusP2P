@@ -27,8 +27,7 @@ public class LogWriter {
 		SimpleDateFormat formatarDate = new SimpleDateFormat(
 				"yyyy-MM-dd_HH_mm_ss");
 		String presentDate = formatarDate.format(data);
-		presentDate = logPath+"\\LOG_" + presentDate + ".txt";
-		File file = new File(presentDate);
+		File file = new File(logPath+"\\LOG_" + presentDate + ".txt");
 
 		startData = presentDate;
 
@@ -53,10 +52,9 @@ public class LogWriter {
 		SimpleDateFormat formatarDate = new SimpleDateFormat(
 				"yyyy-MM-dd_HH_mm_ss");
 		String presentDate = formatarDate.format(data);
-		presentDate = "C:\\BotSimulator\\LOG_" + presentDate + ".txt";
 
 		try {
-			FileWriter fw = new FileWriter(startData, true);
+			FileWriter fw = new FileWriter(logPath+"\\LOG_" + startData + ".txt", true);
 			BufferedWriter log = new BufferedWriter(fw);
 			log.write(presentDate + " : " + str);
 			log.newLine();

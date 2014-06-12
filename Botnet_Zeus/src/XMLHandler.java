@@ -49,7 +49,7 @@ public class XMLHandler {
 		instantiateInfoDocument();
 	}
 
-	void instantiateInfoDocument() {
+	private void instantiateInfoDocument() {
 		try {
 			File fXmlFile = new File(infoPath);
 			DocumentBuilderFactory dbFactory = null;
@@ -59,7 +59,6 @@ public class XMLHandler {
 				log.addLogEntry("Info file is missing");
 				System.exit(1);
 			} else {
-				log.addLogEntry("Info file exists");
 				dbFactory = DocumentBuilderFactory.newInstance();
 				dBuilder = dbFactory.newDocumentBuilder();
 				infoDocument = dBuilder.parse(fXmlFile);
@@ -71,7 +70,7 @@ public class XMLHandler {
 		}
 	}
 
-	void instantiateMalwareDocument() {
+	private void instantiateMalwareDocument() {
 		try {
 			File fXmlFile = new File(malwarePath);
 			DocumentBuilderFactory dbFactory = null;
@@ -81,7 +80,6 @@ public class XMLHandler {
 				log.addLogEntry("Malware Configuration file is missing");
 				malwareDocument = null;
 			} else {
-				log.addLogEntry("Info file exist");
 				dbFactory = DocumentBuilderFactory.newInstance();
 				dBuilder = dbFactory.newDocumentBuilder();
 				malwareDocument = dBuilder.parse(fXmlFile);
@@ -93,7 +91,7 @@ public class XMLHandler {
 		}
 	}
 
-	void instantiatePeerDocument() {
+	private void instantiatePeerDocument() {
 		try {
 			File fXmlFile = new File(infoPath);
 			DocumentBuilderFactory dbFactory = null;
@@ -103,7 +101,6 @@ public class XMLHandler {
 				log.addLogEntry("Peer List File is missing");
 				peerDocument = null;
 			} else {
-				log.addLogEntry("Peer List file exists");
 				dbFactory = DocumentBuilderFactory.newInstance();
 				dBuilder = dbFactory.newDocumentBuilder();
 				peerDocument = dBuilder.parse(fXmlFile);
@@ -148,7 +145,6 @@ public class XMLHandler {
 			System.exit(1);
 		}
 
-		log.addLogEntry("Connection info found");
 
 		Node peer = connectionList.item(0);
 		if (peer.getNodeType() != Node.ELEMENT_NODE) {
@@ -158,8 +154,7 @@ public class XMLHandler {
 		String id = e.getAttribute("id");
 		String port = e.getElementsByTagName("port").item(0).getTextContent();
 		String host = e.getElementsByTagName("host").item(0).getTextContent();
-		log.addLogEntry("Peer " + id + ", Port:" + port + ", Host:" + host
-				+ " it is my peer info");
+		log.addLogEntry("My Peer info" + id + ", Port:" + port + ", Host:" + host);
 		return new Peer(port, host);
 	}
 	/*
@@ -186,8 +181,6 @@ public class XMLHandler {
 			System.exit(1);
 		}
 
-		log.addLogEntry("Malware info found");
-
 		Node peer = malware.item(0);
 		if (peer.getNodeType() != Node.ELEMENT_NODE) {
 			System.exit(1);
@@ -202,12 +195,13 @@ public class XMLHandler {
 	 * Get list of hardcoded peers from info Document
 	 */
 	public HashMap<Integer, Peer> getHardcodedPeerList() {
+		log.addLogEntry("Getting hard coded peers");
 		NodeList peerList = infoDocument.getElementsByTagName("peerBot");
 		if (peerList.getLength() == 0) {
 			log.addLogEntry("Peer Table is empty");
 			System.exit(1);
 		}
-		return getPeers(peerList);
+		return getPeers(peerList, true);
 	}
 
 	/*
@@ -215,15 +209,16 @@ public class XMLHandler {
 	 */
 	public HashMap<Integer, Peer> getUpdatedPeerList() {
 		instantiatePeerDocument();
+		log.addLogEntry("Getting peers from file");
 		NodeList peerList = peerDocument.getElementsByTagName("peerBot");
 		if (peerList.getLength() == 0) {
 			log.addLogEntry("Peer Table is empty");
 			return null;
 		}
-		return getPeers(peerList);
+		return getPeers(peerList, false);
 	}
 
-	public HashMap<Integer, Peer> getPeers(NodeList peerList) {
+	public HashMap<Integer, Peer> getPeers(NodeList peerList, boolean withLog) {
 		HashMap<Integer, Peer> peersTable = new HashMap<Integer, Peer>();
 		for (int i = 0; i < peerList.getLength(); i++) {
 			Node peer = peerList.item(i);
@@ -236,8 +231,8 @@ public class XMLHandler {
 					.getTextContent();
 			String host = e.getElementsByTagName("host").item(0)
 					.getTextContent();
-			log.addLogEntry("Peer " + id + ", " + port + "," + host
-					+ "added to the peer table");
+			if(withLog) log.addLogEntry("Peer " + id + " (" + port + ", " + host
+					+ ") founded");
 			Peer nPeer = new Peer(port, host);
 			peersTable.put(Integer.parseInt(id), nPeer);
 		}
