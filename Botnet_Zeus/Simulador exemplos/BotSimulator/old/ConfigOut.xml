@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : Config.xml
+    Author     : Davi
+    Description:
+        all persistent info of the bot
+-->
+
+<config>
+	<connection id="15">
+		<port>50</port>
+		<host>127.0.0.1</host>
+		<version>1</version>
+	</connection>
+
+	<peerBot id="15">
+		<port>50</port>
+		<host>127.0.0.1</host>
+	</peerBot>
+	
+</config>

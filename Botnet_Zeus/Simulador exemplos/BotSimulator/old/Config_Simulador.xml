@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : Config_Simulador.xml
+    Created on : 25 de Abril de 2014, 08:58
+    Author     : Davi
+    Description:
+        Purpose of the document follows.
+-->
+
+<config>
+   <id_bot>ime_1</id_bot>
+    
+   <fase_ri>false</fase_ri>
+   <fase_config>false</fase_config>
+   <fase_atualizacao>true</fase_atualizacao>
+   <fase_ka>true</fase_ka>
+    
+   <a_mais_de_1_arq_p_download>false</a_mais_de_1_arq_p_download>
+    
+   <tempo_at_suspenso_antes_ka>2</tempo_at_suspenso_antes_ka>
+    
+   <c_arq_config>true</c_arq_config>
+   <c_arq_config_metodo>get</c_arq_config_metodo>
+   <c_config_atualiz>false</c_config_atualiz>
+   <c_msg_sucesso_download>false</c_msg_sucesso_download>
+   <c_duplo_req>true</c_duplo_req>
+   <c_duplo_req_metodo>post</c_duplo_req_metodo>
+   <c_duplo_req_timer>5</c_duplo_req_timer>
+   <c_total_round_msgs>1</c_total_round_msgs>
+    
+   <a_timer>5</a_timer>
+   <a_total_round_msgs>1</a_total_round_msgs>
+   <a_msg_sucesso_download>true</a_msg_sucesso_download>
+    
+   <k_metodo_post>true</k_metodo_post>
+   <k_metodo_get>true</k_metodo_get>
+   <k_range_timer_get_min>10</k_range_timer_get_min>
+   <k_range_timer_get_max>10</k_range_timer_get_max>
+   <k_range_timer_post_min>5</k_range_timer_post_min>
+   <k_range_timer_post_max>5</k_range_timer_post_max>
+    
+   <t_get_payload_url>false</t_get_payload_url>
+   <t_payload>true</t_payload>
+   <t_cript_payload>false</t_cript_payload>
+   <t_alg_cript>rc4</t_alg_cript>
+   <t_chave_cript>64</t_chave_cript>
+   <t_dados_payload>dados do bot</t_dados_payload>
+   <t_checagem_servidor>false</t_checagem_servidor>
+   <t_persistencia_conexao>false</t_persistencia_conexao>
+   <t_timeout>0</t_timeout>
+</config>

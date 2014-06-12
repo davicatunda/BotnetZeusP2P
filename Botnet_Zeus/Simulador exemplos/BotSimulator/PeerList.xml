@@ -1,0 +1,6 @@
+<peerlist>
+<connection id="2">
+<port>5052</port>
+<host>127.0.0.1</host>
+</connection>
+</peerlist>

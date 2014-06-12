@@ -1,0 +1,1420 @@
+Inicializacao do Arquivo de LOG - Timestamp 2014-06-03_16_27_05
+2014-06-03_16_27_05 : My Peer info3, Port:5053, Host:127.0.0.1
+2014-06-03_16_27_05 : Getting hard coded peers
+2014-06-03_16_27_05 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_27_05 : Proxy Table is empty
+2014-06-03_16_27_05 : Bot initialization fully completed
+2014-06-03_16_27_05 : Opening connections
+2014-06-03_16_27_05 : ------------------------------
+2014-06-03_16_27_05 : Running action: updatePeerList
+2014-06-03_16_27_15 : Peer 1 is not responsive, remove it!
+2014-06-03_16_27_15 : Getting hard coded peers
+2014-06-03_16_27_15 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_27_15 : ------------------------------
+2014-06-03_16_27_15 : Running action: updatePeerList
+2014-06-03_16_27_15 : Getting hard coded peers
+2014-06-03_16_27_15 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_27_25 : Peer 1 is not responsive, remove it!
+2014-06-03_16_27_25 : ------------------------------
+2014-06-03_16_27_25 : Running action: updatePeerList
+2014-06-03_16_27_25 : Getting hard coded peers
+2014-06-03_16_27_25 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_27_35 : Peer 1 is not responsive, remove it!
+2014-06-03_16_27_35 : ------------------------------
+2014-06-03_16_27_35 : Running action: updatePeerList
+2014-06-03_16_27_35 : Getting hard coded peers
+2014-06-03_16_27_35 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_27_45 : Peer 1 is not responsive, remove it!
+2014-06-03_16_27_45 : ------------------------------
+2014-06-03_16_27_45 : Running action: updatePeerList
+2014-06-03_16_27_45 : Getting hard coded peers
+2014-06-03_16_27_45 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_27_55 : Peer 1 is not responsive, remove it!
+2014-06-03_16_27_55 : ------------------------------
+2014-06-03_16_27_55 : Running action: updatePeerList
+2014-06-03_16_27_55 : Getting hard coded peers
+2014-06-03_16_27_55 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_28_05 : Peer 1 is not responsive, remove it!
+2014-06-03_16_28_05 : ------------------------------
+2014-06-03_16_28_05 : Running action: updatePeerList
+2014-06-03_16_28_05 : Getting hard coded peers
+2014-06-03_16_28_05 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_28_15 : Peer 1 is not responsive, remove it!
+2014-06-03_16_28_15 : ------------------------------
+2014-06-03_16_28_15 : Running action: updatePeerList
+2014-06-03_16_28_15 : Getting hard coded peers
+2014-06-03_16_28_15 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_28_25 : Peer 1 is not responsive, remove it!
+2014-06-03_16_28_25 : ------------------------------
+2014-06-03_16_28_25 : Running action: updatePeerList
+2014-06-03_16_28_25 : Getting hard coded peers
+2014-06-03_16_28_25 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_28_35 : Peer 1 is not responsive, remove it!
+2014-06-03_16_28_35 : ------------------------------
+2014-06-03_16_28_35 : Running action: updatePeerList
+2014-06-03_16_28_35 : Getting hard coded peers
+2014-06-03_16_28_35 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_28_45 : Peer 1 is not responsive, remove it!
+2014-06-03_16_28_45 : ------------------------------
+2014-06-03_16_28_45 : Running action: updatePeerList
+2014-06-03_16_28_45 : Getting hard coded peers
+2014-06-03_16_28_45 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_28_55 : Peer 1 is not responsive, remove it!
+2014-06-03_16_28_55 : ------------------------------
+2014-06-03_16_28_55 : Running action: updatePeerList
+2014-06-03_16_28_55 : Getting hard coded peers
+2014-06-03_16_28_55 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_29_05 : Peer 1 is not responsive, remove it!
+2014-06-03_16_29_05 : ------------------------------
+2014-06-03_16_29_05 : Running action: updatePeerList
+2014-06-03_16_29_05 : Getting hard coded peers
+2014-06-03_16_29_05 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_29_15 : Peer 1 is not responsive, remove it!
+2014-06-03_16_29_15 : ------------------------------
+2014-06-03_16_29_15 : Running action: updatePeerList
+2014-06-03_16_29_15 : Getting hard coded peers
+2014-06-03_16_29_15 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_29_25 : Peer 1 is not responsive, remove it!
+2014-06-03_16_29_25 : ------------------------------
+2014-06-03_16_29_25 : Running action: updatePeerList
+2014-06-03_16_29_25 : Getting hard coded peers
+2014-06-03_16_29_25 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_29_35 : Peer 1 is not responsive, remove it!
+2014-06-03_16_29_35 : ------------------------------
+2014-06-03_16_29_35 : Running action: updatePeerList
+2014-06-03_16_29_35 : Getting hard coded peers
+2014-06-03_16_29_35 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_29_45 : Peer 1 is not responsive, remove it!
+2014-06-03_16_29_45 : ------------------------------
+2014-06-03_16_29_45 : Running action: updatePeerList
+2014-06-03_16_29_45 : Getting hard coded peers
+2014-06-03_16_29_45 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_29_55 : Peer 1 is not responsive, remove it!
+2014-06-03_16_29_55 : ------------------------------
+2014-06-03_16_29_55 : Running action: updatePeerList
+2014-06-03_16_29_55 : Getting hard coded peers
+2014-06-03_16_29_55 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_30_05 : Peer 1 is not responsive, remove it!
+2014-06-03_16_30_05 : ------------------------------
+2014-06-03_16_30_05 : Running action: updatePeerList
+2014-06-03_16_30_05 : Getting hard coded peers
+2014-06-03_16_30_05 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_30_15 : Peer 1 is not responsive, remove it!
+2014-06-03_16_30_15 : ------------------------------
+2014-06-03_16_30_15 : Running action: updatePeerList
+2014-06-03_16_30_15 : Getting hard coded peers
+2014-06-03_16_30_15 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_30_25 : Peer 1 is not responsive, remove it!
+2014-06-03_16_30_25 : ------------------------------
+2014-06-03_16_30_25 : Running action: updatePeerList
+2014-06-03_16_30_25 : Getting hard coded peers
+2014-06-03_16_30_25 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_30_35 : Peer 1 is not responsive, remove it!
+2014-06-03_16_30_35 : ------------------------------
+2014-06-03_16_30_35 : Running action: updatePeerList
+2014-06-03_16_30_35 : Getting hard coded peers
+2014-06-03_16_30_35 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_30_45 : Peer 1 is not responsive, remove it!
+2014-06-03_16_30_45 : ------------------------------
+2014-06-03_16_30_45 : Running action: updatePeerList
+2014-06-03_16_30_45 : Getting hard coded peers
+2014-06-03_16_30_45 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_30_55 : Peer 1 is not responsive, remove it!
+2014-06-03_16_30_55 : ------------------------------
+2014-06-03_16_30_55 : Running action: updatePeerList
+2014-06-03_16_30_55 : Getting hard coded peers
+2014-06-03_16_30_55 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_31_05 : Peer 1 is not responsive, remove it!
+2014-06-03_16_31_05 : ------------------------------
+2014-06-03_16_31_05 : Running action: updatePeerList
+2014-06-03_16_31_05 : Getting hard coded peers
+2014-06-03_16_31_05 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_31_15 : Peer 1 is not responsive, remove it!
+2014-06-03_16_31_15 : ------------------------------
+2014-06-03_16_31_16 : Running action: updatePeerList
+2014-06-03_16_31_16 : Getting hard coded peers
+2014-06-03_16_31_16 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_31_26 : Peer 1 is not responsive, remove it!
+2014-06-03_16_31_26 : ------------------------------
+2014-06-03_16_31_26 : Running action: updatePeerList
+2014-06-03_16_31_26 : Getting hard coded peers
+2014-06-03_16_31_26 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_31_36 : Peer 1 is not responsive, remove it!
+2014-06-03_16_31_36 : ------------------------------
+2014-06-03_16_31_36 : Running action: updatePeerList
+2014-06-03_16_31_36 : Getting hard coded peers
+2014-06-03_16_31_36 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_31_46 : Peer 1 is not responsive, remove it!
+2014-06-03_16_31_46 : ------------------------------
+2014-06-03_16_31_46 : Running action: updatePeerList
+2014-06-03_16_31_46 : Getting hard coded peers
+2014-06-03_16_31_46 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_31_56 : Peer 1 is not responsive, remove it!
+2014-06-03_16_31_56 : ------------------------------
+2014-06-03_16_31_56 : Running action: updatePeerList
+2014-06-03_16_31_56 : Getting hard coded peers
+2014-06-03_16_31_56 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_32_06 : Peer 1 is not responsive, remove it!
+2014-06-03_16_32_06 : ------------------------------
+2014-06-03_16_32_06 : Running action: updatePeerList
+2014-06-03_16_32_06 : Getting hard coded peers
+2014-06-03_16_32_06 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_32_16 : Peer 1 is not responsive, remove it!
+2014-06-03_16_32_16 : ------------------------------
+2014-06-03_16_32_16 : Running action: updatePeerList
+2014-06-03_16_32_16 : Getting hard coded peers
+2014-06-03_16_32_16 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_32_26 : Peer 1 is not responsive, remove it!
+2014-06-03_16_32_26 : ------------------------------
+2014-06-03_16_32_26 : Running action: updatePeerList
+2014-06-03_16_32_26 : Getting hard coded peers
+2014-06-03_16_32_26 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_32_36 : Peer 1 is not responsive, remove it!
+2014-06-03_16_32_36 : ------------------------------
+2014-06-03_16_32_36 : Running action: updatePeerList
+2014-06-03_16_32_36 : Getting hard coded peers
+2014-06-03_16_32_36 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_32_46 : Peer 1 is not responsive, remove it!
+2014-06-03_16_32_46 : ------------------------------
+2014-06-03_16_32_46 : Running action: updatePeerList
+2014-06-03_16_32_46 : Getting hard coded peers
+2014-06-03_16_32_46 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_32_56 : Peer 1 is not responsive, remove it!
+2014-06-03_16_32_56 : ------------------------------
+2014-06-03_16_32_56 : Running action: updatePeerList
+2014-06-03_16_32_56 : Getting hard coded peers
+2014-06-03_16_32_56 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_33_06 : Peer 1 is not responsive, remove it!
+2014-06-03_16_33_06 : ------------------------------
+2014-06-03_16_33_06 : Running action: updatePeerList
+2014-06-03_16_33_06 : Getting hard coded peers
+2014-06-03_16_33_06 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_33_16 : Peer 1 is not responsive, remove it!
+2014-06-03_16_33_16 : ------------------------------
+2014-06-03_16_33_16 : Running action: updatePeerList
+2014-06-03_16_33_16 : Getting hard coded peers
+2014-06-03_16_33_16 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_33_26 : Peer 1 is not responsive, remove it!
+2014-06-03_16_33_26 : ------------------------------
+2014-06-03_16_33_26 : Running action: updatePeerList
+2014-06-03_16_33_26 : Getting hard coded peers
+2014-06-03_16_33_26 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_33_36 : Peer 1 is not responsive, remove it!
+2014-06-03_16_33_36 : ------------------------------
+2014-06-03_16_33_36 : Running action: updatePeerList
+2014-06-03_16_33_36 : Getting hard coded peers
+2014-06-03_16_33_36 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_33_46 : Peer 1 is not responsive, remove it!
+2014-06-03_16_33_46 : ------------------------------
+2014-06-03_16_33_46 : Running action: updatePeerList
+2014-06-03_16_33_46 : Getting hard coded peers
+2014-06-03_16_33_46 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_33_56 : Peer 1 is not responsive, remove it!
+2014-06-03_16_33_56 : ------------------------------
+2014-06-03_16_33_56 : Running action: updatePeerList
+2014-06-03_16_33_56 : Getting hard coded peers
+2014-06-03_16_33_56 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_34_06 : Peer 1 is not responsive, remove it!
+2014-06-03_16_34_06 : ------------------------------
+2014-06-03_16_34_06 : Running action: updatePeerList
+2014-06-03_16_34_06 : Getting hard coded peers
+2014-06-03_16_34_06 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_34_16 : Peer 1 is not responsive, remove it!
+2014-06-03_16_34_16 : ------------------------------
+2014-06-03_16_34_16 : Running action: updatePeerList
+2014-06-03_16_34_16 : Getting hard coded peers
+2014-06-03_16_34_16 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_34_26 : Peer 1 is not responsive, remove it!
+2014-06-03_16_34_26 : ------------------------------
+2014-06-03_16_34_26 : Running action: updatePeerList
+2014-06-03_16_34_26 : Getting hard coded peers
+2014-06-03_16_34_26 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_34_36 : Peer 1 is not responsive, remove it!
+2014-06-03_16_34_36 : ------------------------------
+2014-06-03_16_34_36 : Running action: updatePeerList
+2014-06-03_16_34_36 : Getting hard coded peers
+2014-06-03_16_34_36 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_34_46 : Peer 1 is not responsive, remove it!
+2014-06-03_16_34_46 : ------------------------------
+2014-06-03_16_34_46 : Running action: updatePeerList
+2014-06-03_16_34_46 : Getting hard coded peers
+2014-06-03_16_34_46 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_34_56 : Peer 1 is not responsive, remove it!
+2014-06-03_16_34_56 : ------------------------------
+2014-06-03_16_34_56 : Running action: updatePeerList
+2014-06-03_16_34_56 : Getting hard coded peers
+2014-06-03_16_34_56 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_35_06 : Peer 1 is not responsive, remove it!
+2014-06-03_16_35_06 : ------------------------------
+2014-06-03_16_35_06 : Running action: updatePeerList
+2014-06-03_16_35_06 : Getting hard coded peers
+2014-06-03_16_35_06 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_35_16 : Peer 1 is not responsive, remove it!
+2014-06-03_16_35_16 : ------------------------------
+2014-06-03_16_35_16 : Running action: updatePeerList
+2014-06-03_16_35_16 : Getting hard coded peers
+2014-06-03_16_35_16 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_35_26 : Peer 1 is not responsive, remove it!
+2014-06-03_16_35_26 : ------------------------------
+2014-06-03_16_35_26 : Running action: updatePeerList
+2014-06-03_16_35_26 : Getting hard coded peers
+2014-06-03_16_35_26 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_35_36 : Peer 1 is not responsive, remove it!
+2014-06-03_16_35_36 : ------------------------------
+2014-06-03_16_35_36 : Running action: updatePeerList
+2014-06-03_16_35_36 : Getting hard coded peers
+2014-06-03_16_35_36 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_35_46 : Peer 1 is not responsive, remove it!
+2014-06-03_16_35_46 : ------------------------------
+2014-06-03_16_35_46 : Running action: updatePeerList
+2014-06-03_16_35_46 : Getting hard coded peers
+2014-06-03_16_35_46 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_35_56 : Peer 1 is not responsive, remove it!
+2014-06-03_16_35_56 : ------------------------------
+2014-06-03_16_35_56 : Running action: updatePeerList
+2014-06-03_16_35_56 : Getting hard coded peers
+2014-06-03_16_35_56 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_36_06 : Peer 1 is not responsive, remove it!
+2014-06-03_16_36_06 : ------------------------------
+2014-06-03_16_36_06 : Running action: updatePeerList
+2014-06-03_16_36_06 : Getting hard coded peers
+2014-06-03_16_36_06 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_36_16 : Peer 1 is not responsive, remove it!
+2014-06-03_16_36_16 : ------------------------------
+2014-06-03_16_36_16 : Running action: updatePeerList
+2014-06-03_16_36_16 : Getting hard coded peers
+2014-06-03_16_36_16 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_36_26 : Peer 1 is not responsive, remove it!
+2014-06-03_16_36_26 : ------------------------------
+2014-06-03_16_36_26 : Running action: updatePeerList
+2014-06-03_16_36_26 : Getting hard coded peers
+2014-06-03_16_36_26 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_36_36 : Peer 1 is not responsive, remove it!
+2014-06-03_16_36_36 : ------------------------------
+2014-06-03_16_36_36 : Running action: updatePeerList
+2014-06-03_16_36_36 : Getting hard coded peers
+2014-06-03_16_36_36 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_36_46 : Peer 1 is not responsive, remove it!
+2014-06-03_16_36_46 : ------------------------------
+2014-06-03_16_36_46 : Running action: updatePeerList
+2014-06-03_16_36_46 : Getting hard coded peers
+2014-06-03_16_36_46 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_36_56 : Peer 1 is not responsive, remove it!
+2014-06-03_16_36_56 : ------------------------------
+2014-06-03_16_36_56 : Running action: updatePeerList
+2014-06-03_16_36_56 : Getting hard coded peers
+2014-06-03_16_36_56 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_37_06 : Peer 1 is not responsive, remove it!
+2014-06-03_16_37_06 : ------------------------------
+2014-06-03_16_37_06 : Running action: updatePeerList
+2014-06-03_16_37_06 : Getting hard coded peers
+2014-06-03_16_37_06 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_37_16 : Peer 1 is not responsive, remove it!
+2014-06-03_16_37_16 : ------------------------------
+2014-06-03_16_37_16 : Running action: updatePeerList
+2014-06-03_16_37_16 : Getting hard coded peers
+2014-06-03_16_37_16 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_37_26 : Peer 1 is not responsive, remove it!
+2014-06-03_16_37_26 : ------------------------------
+2014-06-03_16_37_26 : Running action: updatePeerList
+2014-06-03_16_37_26 : Getting hard coded peers
+2014-06-03_16_37_26 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_37_36 : Peer 1 is not responsive, remove it!
+2014-06-03_16_37_36 : ------------------------------
+2014-06-03_16_37_36 : Running action: updatePeerList
+2014-06-03_16_37_36 : Getting hard coded peers
+2014-06-03_16_37_36 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_37_46 : Peer 1 is not responsive, remove it!
+2014-06-03_16_37_46 : ------------------------------
+2014-06-03_16_37_46 : Running action: updatePeerList
+2014-06-03_16_37_46 : Getting hard coded peers
+2014-06-03_16_37_46 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_37_56 : Peer 1 is not responsive, remove it!
+2014-06-03_16_37_56 : ------------------------------
+2014-06-03_16_37_56 : Running action: updatePeerList
+2014-06-03_16_37_56 : Getting hard coded peers
+2014-06-03_16_37_56 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_38_06 : Peer 1 is not responsive, remove it!
+2014-06-03_16_38_06 : ------------------------------
+2014-06-03_16_38_06 : Running action: updatePeerList
+2014-06-03_16_38_06 : Getting hard coded peers
+2014-06-03_16_38_06 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_38_16 : Peer 1 is not responsive, remove it!
+2014-06-03_16_38_16 : ------------------------------
+2014-06-03_16_38_16 : Running action: updatePeerList
+2014-06-03_16_38_16 : Getting hard coded peers
+2014-06-03_16_38_16 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_38_26 : Peer 1 is not responsive, remove it!
+2014-06-03_16_38_26 : ------------------------------
+2014-06-03_16_38_26 : Running action: updatePeerList
+2014-06-03_16_38_26 : Getting hard coded peers
+2014-06-03_16_38_26 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_38_36 : Peer 1 is not responsive, remove it!
+2014-06-03_16_38_36 : ------------------------------
+2014-06-03_16_38_36 : Running action: updatePeerList
+2014-06-03_16_38_36 : Getting hard coded peers
+2014-06-03_16_38_36 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_38_46 : Peer 1 is not responsive, remove it!
+2014-06-03_16_38_46 : ------------------------------
+2014-06-03_16_38_46 : Running action: updatePeerList
+2014-06-03_16_38_46 : Getting hard coded peers
+2014-06-03_16_38_46 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_38_56 : Peer 1 is not responsive, remove it!
+2014-06-03_16_38_56 : ------------------------------
+2014-06-03_16_38_56 : Running action: updatePeerList
+2014-06-03_16_38_56 : Getting hard coded peers
+2014-06-03_16_38_56 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_39_06 : Peer 1 is not responsive, remove it!
+2014-06-03_16_39_06 : ------------------------------
+2014-06-03_16_39_06 : Running action: updatePeerList
+2014-06-03_16_39_06 : Getting hard coded peers
+2014-06-03_16_39_06 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_39_16 : Peer 1 is not responsive, remove it!
+2014-06-03_16_39_16 : ------------------------------
+2014-06-03_16_39_16 : Running action: updatePeerList
+2014-06-03_16_39_16 : Getting hard coded peers
+2014-06-03_16_39_16 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_39_26 : Peer 1 is not responsive, remove it!
+2014-06-03_16_39_26 : ------------------------------
+2014-06-03_16_39_26 : Running action: updatePeerList
+2014-06-03_16_39_26 : Getting hard coded peers
+2014-06-03_16_39_26 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_39_36 : Peer 1 is not responsive, remove it!
+2014-06-03_16_39_36 : ------------------------------
+2014-06-03_16_39_36 : Running action: updatePeerList
+2014-06-03_16_39_36 : Getting hard coded peers
+2014-06-03_16_39_36 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_39_46 : Peer 1 is not responsive, remove it!
+2014-06-03_16_39_46 : ------------------------------
+2014-06-03_16_39_46 : Running action: updatePeerList
+2014-06-03_16_39_46 : Getting hard coded peers
+2014-06-03_16_39_46 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_39_56 : Peer 1 is not responsive, remove it!
+2014-06-03_16_39_56 : ------------------------------
+2014-06-03_16_39_56 : Running action: updatePeerList
+2014-06-03_16_39_56 : Getting hard coded peers
+2014-06-03_16_39_56 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_40_06 : Peer 1 is not responsive, remove it!
+2014-06-03_16_40_06 : ------------------------------
+2014-06-03_16_40_06 : Running action: updatePeerList
+2014-06-03_16_40_06 : Getting hard coded peers
+2014-06-03_16_40_06 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_40_16 : Peer 1 is not responsive, remove it!
+2014-06-03_16_40_16 : ------------------------------
+2014-06-03_16_40_16 : Running action: updatePeerList
+2014-06-03_16_40_16 : Getting hard coded peers
+2014-06-03_16_40_16 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_40_26 : Peer 1 is not responsive, remove it!
+2014-06-03_16_40_26 : ------------------------------
+2014-06-03_16_40_26 : Running action: updatePeerList
+2014-06-03_16_40_26 : Getting hard coded peers
+2014-06-03_16_40_26 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_40_36 : Peer 1 is not responsive, remove it!
+2014-06-03_16_40_36 : ------------------------------
+2014-06-03_16_40_36 : Running action: updatePeerList
+2014-06-03_16_40_36 : Getting hard coded peers
+2014-06-03_16_40_36 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_40_46 : Peer 1 is not responsive, remove it!
+2014-06-03_16_40_46 : ------------------------------
+2014-06-03_16_40_46 : Running action: updatePeerList
+2014-06-03_16_40_46 : Getting hard coded peers
+2014-06-03_16_40_46 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_40_56 : Peer 1 is not responsive, remove it!
+2014-06-03_16_40_56 : ------------------------------
+2014-06-03_16_40_56 : Running action: updatePeerList
+2014-06-03_16_40_56 : Getting hard coded peers
+2014-06-03_16_40_56 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_41_06 : Peer 1 is not responsive, remove it!
+2014-06-03_16_41_06 : ------------------------------
+2014-06-03_16_41_06 : Running action: updatePeerList
+2014-06-03_16_41_06 : Getting hard coded peers
+2014-06-03_16_41_06 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_41_16 : Peer 1 is not responsive, remove it!
+2014-06-03_16_41_16 : ------------------------------
+2014-06-03_16_41_16 : Running action: updatePeerList
+2014-06-03_16_41_16 : Getting hard coded peers
+2014-06-03_16_41_16 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_41_26 : Peer 1 is not responsive, remove it!
+2014-06-03_16_41_26 : ------------------------------
+2014-06-03_16_41_26 : Running action: updatePeerList
+2014-06-03_16_41_26 : Getting hard coded peers
+2014-06-03_16_41_26 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_41_36 : Peer 1 is not responsive, remove it!
+2014-06-03_16_41_36 : ------------------------------
+2014-06-03_16_41_36 : Running action: updatePeerList
+2014-06-03_16_41_36 : Getting hard coded peers
+2014-06-03_16_41_36 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_41_46 : Peer 1 is not responsive, remove it!
+2014-06-03_16_41_46 : ------------------------------
+2014-06-03_16_41_46 : Running action: updatePeerList
+2014-06-03_16_41_46 : Getting hard coded peers
+2014-06-03_16_41_46 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_41_56 : Peer 1 is not responsive, remove it!
+2014-06-03_16_41_56 : ------------------------------
+2014-06-03_16_41_56 : Running action: updatePeerList
+2014-06-03_16_41_56 : Getting hard coded peers
+2014-06-03_16_41_56 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_42_06 : Peer 1 is not responsive, remove it!
+2014-06-03_16_42_06 : ------------------------------
+2014-06-03_16_42_06 : Running action: updatePeerList
+2014-06-03_16_42_06 : Getting hard coded peers
+2014-06-03_16_42_06 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_42_16 : Peer 1 is not responsive, remove it!
+2014-06-03_16_42_16 : ------------------------------
+2014-06-03_16_42_16 : Running action: updatePeerList
+2014-06-03_16_42_16 : Getting hard coded peers
+2014-06-03_16_42_16 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_42_26 : Peer 1 is not responsive, remove it!
+2014-06-03_16_42_26 : ------------------------------
+2014-06-03_16_42_26 : Running action: updatePeerList
+2014-06-03_16_42_26 : Getting hard coded peers
+2014-06-03_16_42_26 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_42_36 : Peer 1 is not responsive, remove it!
+2014-06-03_16_42_36 : ------------------------------
+2014-06-03_16_42_36 : Running action: updatePeerList
+2014-06-03_16_42_36 : Getting hard coded peers
+2014-06-03_16_42_36 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_42_46 : Peer 1 is not responsive, remove it!
+2014-06-03_16_42_46 : ------------------------------
+2014-06-03_16_42_46 : Running action: updatePeerList
+2014-06-03_16_42_46 : Getting hard coded peers
+2014-06-03_16_42_46 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_42_56 : Peer 1 is not responsive, remove it!
+2014-06-03_16_42_56 : ------------------------------
+2014-06-03_16_42_56 : Running action: updatePeerList
+2014-06-03_16_42_56 : Getting hard coded peers
+2014-06-03_16_42_56 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_43_06 : Peer 1 is not responsive, remove it!
+2014-06-03_16_43_06 : ------------------------------
+2014-06-03_16_43_06 : Running action: updatePeerList
+2014-06-03_16_43_06 : Getting hard coded peers
+2014-06-03_16_43_06 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_43_16 : Peer 1 is not responsive, remove it!
+2014-06-03_16_43_16 : ------------------------------
+2014-06-03_16_43_16 : Running action: updatePeerList
+2014-06-03_16_43_16 : Getting hard coded peers
+2014-06-03_16_43_16 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_43_26 : Peer 1 is not responsive, remove it!
+2014-06-03_16_43_26 : ------------------------------
+2014-06-03_16_43_26 : Running action: updatePeerList
+2014-06-03_16_43_26 : Getting hard coded peers
+2014-06-03_16_43_26 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_43_36 : Peer 1 is not responsive, remove it!
+2014-06-03_16_43_36 : ------------------------------
+2014-06-03_16_43_36 : Running action: updatePeerList
+2014-06-03_16_43_36 : Getting hard coded peers
+2014-06-03_16_43_36 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_43_46 : Peer 1 is not responsive, remove it!
+2014-06-03_16_43_46 : ------------------------------
+2014-06-03_16_43_46 : Running action: updatePeerList
+2014-06-03_16_43_46 : Getting hard coded peers
+2014-06-03_16_43_46 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_43_56 : Peer 1 is not responsive, remove it!
+2014-06-03_16_43_56 : ------------------------------
+2014-06-03_16_43_56 : Running action: updatePeerList
+2014-06-03_16_43_56 : Getting hard coded peers
+2014-06-03_16_43_56 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_44_06 : Peer 1 is not responsive, remove it!
+2014-06-03_16_44_06 : ------------------------------
+2014-06-03_16_44_06 : Running action: updatePeerList
+2014-06-03_16_44_06 : Getting hard coded peers
+2014-06-03_16_44_06 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_44_16 : Peer 1 is not responsive, remove it!
+2014-06-03_16_44_16 : ------------------------------
+2014-06-03_16_44_16 : Running action: updatePeerList
+2014-06-03_16_44_16 : Getting hard coded peers
+2014-06-03_16_44_16 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_44_26 : Peer 1 is not responsive, remove it!
+2014-06-03_16_44_26 : ------------------------------
+2014-06-03_16_44_26 : Running action: updatePeerList
+2014-06-03_16_44_26 : Getting hard coded peers
+2014-06-03_16_44_26 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_44_36 : Peer 1 is not responsive, remove it!
+2014-06-03_16_44_36 : ------------------------------
+2014-06-03_16_44_36 : Running action: updatePeerList
+2014-06-03_16_44_36 : Getting hard coded peers
+2014-06-03_16_44_36 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_44_46 : Peer 1 is not responsive, remove it!
+2014-06-03_16_44_46 : ------------------------------
+2014-06-03_16_44_46 : Running action: updatePeerList
+2014-06-03_16_44_46 : Getting hard coded peers
+2014-06-03_16_44_46 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_44_56 : Peer 1 is not responsive, remove it!
+2014-06-03_16_44_56 : ------------------------------
+2014-06-03_16_44_56 : Running action: updatePeerList
+2014-06-03_16_44_56 : Getting hard coded peers
+2014-06-03_16_44_56 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_45_06 : Peer 1 is not responsive, remove it!
+2014-06-03_16_45_06 : ------------------------------
+2014-06-03_16_45_06 : Running action: updatePeerList
+2014-06-03_16_45_06 : Getting hard coded peers
+2014-06-03_16_45_06 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_45_16 : Peer 1 is not responsive, remove it!
+2014-06-03_16_45_16 : ------------------------------
+2014-06-03_16_45_16 : Running action: updatePeerList
+2014-06-03_16_45_16 : Getting hard coded peers
+2014-06-03_16_45_16 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_45_26 : Peer 1 is not responsive, remove it!
+2014-06-03_16_45_26 : ------------------------------
+2014-06-03_16_45_26 : Running action: updatePeerList
+2014-06-03_16_45_26 : Getting hard coded peers
+2014-06-03_16_45_26 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_45_36 : Peer 1 is not responsive, remove it!
+2014-06-03_16_45_36 : ------------------------------
+2014-06-03_16_45_36 : Running action: updatePeerList
+2014-06-03_16_45_36 : Getting hard coded peers
+2014-06-03_16_45_36 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_45_46 : Peer 1 is not responsive, remove it!
+2014-06-03_16_45_46 : ------------------------------
+2014-06-03_16_45_46 : Running action: updatePeerList
+2014-06-03_16_45_46 : Getting hard coded peers
+2014-06-03_16_45_46 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_45_56 : Peer 1 is not responsive, remove it!
+2014-06-03_16_45_56 : ------------------------------
+2014-06-03_16_45_56 : Running action: updatePeerList
+2014-06-03_16_45_56 : Getting hard coded peers
+2014-06-03_16_45_56 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_46_06 : Peer 1 is not responsive, remove it!
+2014-06-03_16_46_06 : ------------------------------
+2014-06-03_16_46_06 : Running action: updatePeerList
+2014-06-03_16_46_06 : Getting hard coded peers
+2014-06-03_16_46_06 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_46_16 : Peer 1 is not responsive, remove it!
+2014-06-03_16_46_16 : ------------------------------
+2014-06-03_16_46_16 : Running action: updatePeerList
+2014-06-03_16_46_16 : Getting hard coded peers
+2014-06-03_16_46_16 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_46_26 : Peer 1 is not responsive, remove it!
+2014-06-03_16_46_26 : ------------------------------
+2014-06-03_16_46_26 : Running action: updatePeerList
+2014-06-03_16_46_26 : Getting hard coded peers
+2014-06-03_16_46_26 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_46_36 : Peer 1 is not responsive, remove it!
+2014-06-03_16_46_36 : ------------------------------
+2014-06-03_16_46_36 : Running action: updatePeerList
+2014-06-03_16_46_36 : Getting hard coded peers
+2014-06-03_16_46_36 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_46_46 : Peer 1 is not responsive, remove it!
+2014-06-03_16_46_46 : ------------------------------
+2014-06-03_16_46_46 : Running action: updatePeerList
+2014-06-03_16_46_46 : Getting hard coded peers
+2014-06-03_16_46_46 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_46_56 : Peer 1 is not responsive, remove it!
+2014-06-03_16_46_56 : ------------------------------
+2014-06-03_16_46_56 : Running action: updatePeerList
+2014-06-03_16_46_56 : Getting hard coded peers
+2014-06-03_16_46_56 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_47_06 : Peer 1 is not responsive, remove it!
+2014-06-03_16_47_06 : ------------------------------
+2014-06-03_16_47_06 : Running action: updatePeerList
+2014-06-03_16_47_06 : Getting hard coded peers
+2014-06-03_16_47_06 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_47_16 : Peer 1 is not responsive, remove it!
+2014-06-03_16_47_16 : ------------------------------
+2014-06-03_16_47_16 : Running action: updatePeerList
+2014-06-03_16_47_16 : Getting hard coded peers
+2014-06-03_16_47_16 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_47_26 : Peer 1 is not responsive, remove it!
+2014-06-03_16_47_26 : ------------------------------
+2014-06-03_16_47_26 : Running action: updatePeerList
+2014-06-03_16_47_26 : Getting hard coded peers
+2014-06-03_16_47_26 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_47_36 : Peer 1 is not responsive, remove it!
+2014-06-03_16_47_36 : ------------------------------
+2014-06-03_16_47_36 : Running action: updatePeerList
+2014-06-03_16_47_36 : Getting hard coded peers
+2014-06-03_16_47_36 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_47_46 : Peer 1 is not responsive, remove it!
+2014-06-03_16_47_46 : ------------------------------
+2014-06-03_16_47_46 : Running action: updatePeerList
+2014-06-03_16_47_46 : Getting hard coded peers
+2014-06-03_16_47_46 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_47_56 : Peer 1 is not responsive, remove it!
+2014-06-03_16_47_56 : ------------------------------
+2014-06-03_16_47_56 : Running action: updatePeerList
+2014-06-03_16_47_56 : Getting hard coded peers
+2014-06-03_16_47_56 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_48_06 : Peer 1 is not responsive, remove it!
+2014-06-03_16_48_06 : ------------------------------
+2014-06-03_16_48_06 : Running action: updatePeerList
+2014-06-03_16_48_06 : Getting hard coded peers
+2014-06-03_16_48_06 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_48_10 : Getting peers from file
+2014-06-03_16_48_10 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_48_16 : Peer 1 is not responsive, remove it!
+2014-06-03_16_48_16 : ------------------------------
+2014-06-03_16_48_16 : Running action: updatePeerList
+2014-06-03_16_48_16 : Getting hard coded peers
+2014-06-03_16_48_16 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_48_20 : Getting peers from file
+2014-06-03_16_48_20 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_48_26 : Peer 1 is not responsive, remove it!
+2014-06-03_16_48_26 : ------------------------------
+2014-06-03_16_48_26 : Running action: updatePeerList
+2014-06-03_16_48_26 : Getting hard coded peers
+2014-06-03_16_48_26 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_48_30 : Getting peers from file
+2014-06-03_16_48_30 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_48_30 : Getting peers from file
+2014-06-03_16_48_30 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_48_36 : Peer 1 is not responsive, remove it!
+2014-06-03_16_48_36 : ------------------------------
+2014-06-03_16_48_36 : Running action: updatePeerList
+2014-06-03_16_48_36 : Getting hard coded peers
+2014-06-03_16_48_36 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_48_36 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_48_36 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_48_36 : Peer 2 is responsive, add it to get peerList!
+2014-06-03_16_48_46 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_48_46 : Saving peer list to file
+2014-06-03_16_48_46 : ------------------------------
+2014-06-03_16_48_46 : Running action: updatePeerList
+2014-06-03_16_48_46 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_48_46 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_48_46 : Getting hard coded peers
+2014-06-03_16_48_46 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_48_46 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_48_50 : Getting peers from file
+2014-06-03_16_48_50 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_48_56 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_48_56 : Saving peer list to file
+2014-06-03_16_48_56 : ------------------------------
+2014-06-03_16_48_56 : Running action: updatePeerList
+2014-06-03_16_48_56 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_48_56 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_48_56 : Getting hard coded peers
+2014-06-03_16_48_56 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_48_56 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_49_00 : Getting peers from file
+2014-06-03_16_49_00 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_49_06 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_49_06 : Saving peer list to file
+2014-06-03_16_49_06 : ------------------------------
+2014-06-03_16_49_06 : Running action: updatePeerList
+2014-06-03_16_49_06 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_49_06 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_49_06 : Getting hard coded peers
+2014-06-03_16_49_06 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_49_06 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_49_10 : Getting peers from file
+2014-06-03_16_49_10 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_49_16 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_49_16 : Saving peer list to file
+2014-06-03_16_49_16 : ------------------------------
+2014-06-03_16_49_16 : Running action: updatePeerList
+2014-06-03_16_49_16 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_49_16 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_49_16 : Getting hard coded peers
+2014-06-03_16_49_16 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_49_16 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_49_20 : Getting peers from file
+2014-06-03_16_49_20 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_49_26 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_49_26 : Saving peer list to file
+2014-06-03_16_49_26 : ------------------------------
+2014-06-03_16_49_26 : Running action: updatePeerList
+2014-06-03_16_49_26 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_49_26 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_49_26 : Getting hard coded peers
+2014-06-03_16_49_26 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_49_26 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_49_30 : Getting peers from file
+2014-06-03_16_49_30 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_49_36 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_49_36 : Saving peer list to file
+2014-06-03_16_49_36 : ------------------------------
+2014-06-03_16_49_36 : Running action: updatePeerList
+2014-06-03_16_49_36 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_49_36 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_49_36 : Getting hard coded peers
+2014-06-03_16_49_36 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_49_36 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_49_40 : Getting peers from file
+2014-06-03_16_49_40 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_49_46 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_49_46 : Saving peer list to file
+2014-06-03_16_49_46 : ------------------------------
+2014-06-03_16_49_46 : Running action: updatePeerList
+2014-06-03_16_49_46 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_49_46 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_49_46 : Getting hard coded peers
+2014-06-03_16_49_46 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_49_46 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_49_50 : Getting peers from file
+2014-06-03_16_49_50 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_49_56 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_49_56 : Saving peer list to file
+2014-06-03_16_49_56 : ------------------------------
+2014-06-03_16_49_56 : Running action: updatePeerList
+2014-06-03_16_49_56 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_49_56 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_49_56 : Getting hard coded peers
+2014-06-03_16_49_56 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_49_56 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_50_00 : Getting peers from file
+2014-06-03_16_50_00 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_50_06 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_50_06 : Saving peer list to file
+2014-06-03_16_50_06 : ------------------------------
+2014-06-03_16_50_06 : Running action: updatePeerList
+2014-06-03_16_50_06 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_50_06 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_50_06 : Getting hard coded peers
+2014-06-03_16_50_06 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_50_06 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_50_10 : Getting peers from file
+2014-06-03_16_50_10 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_50_16 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_50_16 : Saving peer list to file
+2014-06-03_16_50_16 : ------------------------------
+2014-06-03_16_50_16 : Running action: updatePeerList
+2014-06-03_16_50_16 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_50_16 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_50_16 : Getting hard coded peers
+2014-06-03_16_50_16 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_50_16 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_50_20 : Getting peers from file
+2014-06-03_16_50_20 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_50_26 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_50_26 : Saving peer list to file
+2014-06-03_16_50_26 : ------------------------------
+2014-06-03_16_50_26 : Running action: updatePeerList
+2014-06-03_16_50_26 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_50_26 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_50_26 : Getting hard coded peers
+2014-06-03_16_50_26 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_50_26 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_50_30 : Getting peers from file
+2014-06-03_16_50_30 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_50_36 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_50_36 : Saving peer list to file
+2014-06-03_16_50_36 : ------------------------------
+2014-06-03_16_50_36 : Running action: updatePeerList
+2014-06-03_16_50_36 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_50_36 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_50_36 : Getting hard coded peers
+2014-06-03_16_50_36 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_50_36 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_50_40 : Getting peers from file
+2014-06-03_16_50_40 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_50_46 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_50_46 : Saving peer list to file
+2014-06-03_16_50_46 : ------------------------------
+2014-06-03_16_50_46 : Running action: updatePeerList
+2014-06-03_16_50_46 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_50_46 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_50_46 : Getting hard coded peers
+2014-06-03_16_50_46 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_50_46 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_50_50 : Getting peers from file
+2014-06-03_16_50_50 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_50_56 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_50_56 : Saving peer list to file
+2014-06-03_16_50_56 : ------------------------------
+2014-06-03_16_50_56 : Running action: updatePeerList
+2014-06-03_16_50_56 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_50_56 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_50_56 : Getting hard coded peers
+2014-06-03_16_50_56 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_50_56 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_51_00 : Getting peers from file
+2014-06-03_16_51_00 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_51_06 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_51_06 : Saving peer list to file
+2014-06-03_16_51_06 : ------------------------------
+2014-06-03_16_51_06 : Running action: updatePeerList
+2014-06-03_16_51_06 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_51_06 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_51_06 : Getting hard coded peers
+2014-06-03_16_51_06 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_51_06 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_51_10 : Getting peers from file
+2014-06-03_16_51_10 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_51_16 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_51_16 : Saving peer list to file
+2014-06-03_16_51_16 : ------------------------------
+2014-06-03_16_51_16 : Running action: updatePeerList
+2014-06-03_16_51_16 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_51_16 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_51_16 : Getting hard coded peers
+2014-06-03_16_51_16 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_51_16 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_51_20 : Getting peers from file
+2014-06-03_16_51_20 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_51_26 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_51_26 : Saving peer list to file
+2014-06-03_16_51_26 : ------------------------------
+2014-06-03_16_51_26 : Running action: updatePeerList
+2014-06-03_16_51_26 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_51_26 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_51_26 : Getting hard coded peers
+2014-06-03_16_51_26 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_51_26 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_51_30 : Getting peers from file
+2014-06-03_16_51_30 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_51_36 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_51_36 : Saving peer list to file
+2014-06-03_16_51_36 : ------------------------------
+2014-06-03_16_51_36 : Running action: updatePeerList
+2014-06-03_16_51_36 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_51_36 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_51_36 : Getting hard coded peers
+2014-06-03_16_51_36 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_51_36 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_51_40 : Getting peers from file
+2014-06-03_16_51_40 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_51_46 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_51_46 : Saving peer list to file
+2014-06-03_16_51_46 : ------------------------------
+2014-06-03_16_51_46 : Running action: updatePeerList
+2014-06-03_16_51_46 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_51_46 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_51_46 : Getting hard coded peers
+2014-06-03_16_51_46 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_51_46 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_51_50 : Getting peers from file
+2014-06-03_16_51_50 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_51_56 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_51_56 : Saving peer list to file
+2014-06-03_16_51_56 : ------------------------------
+2014-06-03_16_51_56 : Running action: updatePeerList
+2014-06-03_16_51_56 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_51_56 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_51_56 : Getting hard coded peers
+2014-06-03_16_51_56 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_51_56 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_52_00 : Getting peers from file
+2014-06-03_16_52_00 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_52_06 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_52_06 : Saving peer list to file
+2014-06-03_16_52_06 : ------------------------------
+2014-06-03_16_52_06 : Running action: updatePeerList
+2014-06-03_16_52_06 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_52_06 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_52_06 : Getting hard coded peers
+2014-06-03_16_52_06 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_52_06 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_52_10 : Getting peers from file
+2014-06-03_16_52_10 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_52_16 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_52_16 : Saving peer list to file
+2014-06-03_16_52_16 : ------------------------------
+2014-06-03_16_52_16 : Running action: updatePeerList
+2014-06-03_16_52_16 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_52_16 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_52_16 : Getting hard coded peers
+2014-06-03_16_52_16 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_52_16 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_52_20 : Getting peers from file
+2014-06-03_16_52_20 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_52_26 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_52_26 : Saving peer list to file
+2014-06-03_16_52_26 : ------------------------------
+2014-06-03_16_52_26 : Running action: updatePeerList
+2014-06-03_16_52_26 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_52_26 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_52_26 : Getting hard coded peers
+2014-06-03_16_52_26 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_52_26 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_52_30 : Getting peers from file
+2014-06-03_16_52_30 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_52_36 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_52_36 : Saving peer list to file
+2014-06-03_16_52_36 : ------------------------------
+2014-06-03_16_52_36 : Running action: updatePeerList
+2014-06-03_16_52_36 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_52_36 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_52_36 : Getting hard coded peers
+2014-06-03_16_52_36 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_52_36 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_52_40 : Getting peers from file
+2014-06-03_16_52_40 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_52_47 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_52_47 : Saving peer list to file
+2014-06-03_16_52_47 : ------------------------------
+2014-06-03_16_52_47 : Running action: updatePeerList
+2014-06-03_16_52_47 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_52_47 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_52_47 : Getting hard coded peers
+2014-06-03_16_52_47 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_52_47 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_52_50 : Getting peers from file
+2014-06-03_16_52_50 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_52_57 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_52_57 : Saving peer list to file
+2014-06-03_16_52_57 : ------------------------------
+2014-06-03_16_52_57 : Running action: updatePeerList
+2014-06-03_16_52_57 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_52_57 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_52_57 : Getting hard coded peers
+2014-06-03_16_52_57 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_52_57 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_53_00 : Getting peers from file
+2014-06-03_16_53_00 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_53_07 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_53_07 : Saving peer list to file
+2014-06-03_16_53_07 : ------------------------------
+2014-06-03_16_53_07 : Running action: updatePeerList
+2014-06-03_16_53_07 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_53_07 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_53_07 : Getting hard coded peers
+2014-06-03_16_53_07 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_53_07 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_53_10 : Getting peers from file
+2014-06-03_16_53_10 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_53_17 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_53_17 : Saving peer list to file
+2014-06-03_16_53_17 : ------------------------------
+2014-06-03_16_53_17 : Running action: updatePeerList
+2014-06-03_16_53_17 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_53_17 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_53_17 : Getting hard coded peers
+2014-06-03_16_53_17 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_53_17 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_53_20 : Getting peers from file
+2014-06-03_16_53_20 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_53_27 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_53_27 : Saving peer list to file
+2014-06-03_16_53_27 : ------------------------------
+2014-06-03_16_53_27 : Running action: updatePeerList
+2014-06-03_16_53_27 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_53_27 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_53_27 : Getting hard coded peers
+2014-06-03_16_53_27 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_53_27 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_53_30 : Getting peers from file
+2014-06-03_16_53_30 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_53_37 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_53_37 : Saving peer list to file
+2014-06-03_16_53_37 : ------------------------------
+2014-06-03_16_53_37 : Running action: updatePeerList
+2014-06-03_16_53_37 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_53_37 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_53_37 : Getting hard coded peers
+2014-06-03_16_53_37 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_53_37 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_53_40 : Getting peers from file
+2014-06-03_16_53_40 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_53_47 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_53_47 : Saving peer list to file
+2014-06-03_16_53_47 : ------------------------------
+2014-06-03_16_53_47 : Running action: updatePeerList
+2014-06-03_16_53_47 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_53_47 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_53_47 : Getting hard coded peers
+2014-06-03_16_53_47 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_53_47 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_53_50 : Getting peers from file
+2014-06-03_16_53_50 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_53_57 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_53_57 : Saving peer list to file
+2014-06-03_16_53_57 : ------------------------------
+2014-06-03_16_53_57 : Running action: updatePeerList
+2014-06-03_16_53_57 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_53_57 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_53_57 : Getting hard coded peers
+2014-06-03_16_53_57 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_53_57 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_54_00 : Getting peers from file
+2014-06-03_16_54_00 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_54_07 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_54_07 : Saving peer list to file
+2014-06-03_16_54_07 : ------------------------------
+2014-06-03_16_54_07 : Running action: updatePeerList
+2014-06-03_16_54_07 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_54_07 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_54_07 : Getting hard coded peers
+2014-06-03_16_54_07 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_54_07 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_54_10 : Getting peers from file
+2014-06-03_16_54_10 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_54_17 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_54_17 : Saving peer list to file
+2014-06-03_16_54_17 : ------------------------------
+2014-06-03_16_54_17 : Running action: updatePeerList
+2014-06-03_16_54_17 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_54_17 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_54_17 : Getting hard coded peers
+2014-06-03_16_54_17 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_54_17 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_54_20 : Getting peers from file
+2014-06-03_16_54_20 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_54_27 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_54_27 : Saving peer list to file
+2014-06-03_16_54_27 : ------------------------------
+2014-06-03_16_54_27 : Running action: updatePeerList
+2014-06-03_16_54_27 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_54_27 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_54_27 : Getting hard coded peers
+2014-06-03_16_54_27 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_54_27 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_54_30 : Getting peers from file
+2014-06-03_16_54_30 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_54_37 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_54_37 : Saving peer list to file
+2014-06-03_16_54_37 : ------------------------------
+2014-06-03_16_54_37 : Running action: updatePeerList
+2014-06-03_16_54_37 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_54_37 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_54_37 : Getting hard coded peers
+2014-06-03_16_54_37 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_54_37 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_54_40 : Getting peers from file
+2014-06-03_16_54_40 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_54_47 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_54_47 : Saving peer list to file
+2014-06-03_16_54_47 : ------------------------------
+2014-06-03_16_54_47 : Running action: updatePeerList
+2014-06-03_16_54_47 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_54_47 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_54_47 : Getting hard coded peers
+2014-06-03_16_54_47 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_54_47 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_54_50 : Getting peers from file
+2014-06-03_16_54_50 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_54_57 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_54_57 : Saving peer list to file
+2014-06-03_16_54_57 : ------------------------------
+2014-06-03_16_54_57 : Running action: updatePeerList
+2014-06-03_16_54_57 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_54_57 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_54_57 : Getting hard coded peers
+2014-06-03_16_54_57 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_54_57 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_55_00 : Getting peers from file
+2014-06-03_16_55_00 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_55_07 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_55_07 : Saving peer list to file
+2014-06-03_16_55_07 : ------------------------------
+2014-06-03_16_55_07 : Running action: updatePeerList
+2014-06-03_16_55_07 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_55_07 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_55_07 : Getting hard coded peers
+2014-06-03_16_55_07 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_55_07 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_55_11 : Getting peers from file
+2014-06-03_16_55_11 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_55_17 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_55_17 : Saving peer list to file
+2014-06-03_16_55_17 : ------------------------------
+2014-06-03_16_55_17 : Running action: updatePeerList
+2014-06-03_16_55_17 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_55_17 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_55_17 : Getting hard coded peers
+2014-06-03_16_55_17 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_55_17 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_55_21 : Getting peers from file
+2014-06-03_16_55_21 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_55_27 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_55_27 : Saving peer list to file
+2014-06-03_16_55_27 : ------------------------------
+2014-06-03_16_55_27 : Running action: updatePeerList
+2014-06-03_16_55_27 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_55_27 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_55_27 : Getting hard coded peers
+2014-06-03_16_55_27 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_55_27 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_55_31 : Getting peers from file
+2014-06-03_16_55_31 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_55_36 : Getting peers from file
+2014-06-03_16_55_36 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_55_37 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_55_37 : Saving peer list to file
+2014-06-03_16_55_37 : ------------------------------
+2014-06-03_16_55_37 : Running action: updatePeerList
+2014-06-03_16_55_37 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_55_37 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_55_37 : Getting hard coded peers
+2014-06-03_16_55_37 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_55_37 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_55_41 : Getting peers from file
+2014-06-03_16_55_41 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_55_47 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_55_47 : Saving peer list to file
+2014-06-03_16_55_47 : ------------------------------
+2014-06-03_16_55_47 : Running action: updatePeerList
+2014-06-03_16_55_47 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_55_47 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_55_47 : Getting hard coded peers
+2014-06-03_16_55_47 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_55_47 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_55_51 : Getting peers from file
+2014-06-03_16_55_51 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_55_57 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_55_57 : Saving peer list to file
+2014-06-03_16_55_57 : ------------------------------
+2014-06-03_16_55_57 : Running action: updatePeerList
+2014-06-03_16_55_57 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_55_57 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_55_57 : Getting hard coded peers
+2014-06-03_16_55_57 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_55_57 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_56_01 : Getting peers from file
+2014-06-03_16_56_01 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_56_07 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_56_07 : Saving peer list to file
+2014-06-03_16_56_07 : ------------------------------
+2014-06-03_16_56_07 : Running action: updatePeerList
+2014-06-03_16_56_07 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_56_07 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_56_07 : Getting hard coded peers
+2014-06-03_16_56_07 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_56_07 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_56_11 : Getting peers from file
+2014-06-03_16_56_11 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_56_17 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_56_17 : Saving peer list to file
+2014-06-03_16_56_17 : ------------------------------
+2014-06-03_16_56_17 : Running action: updatePeerList
+2014-06-03_16_56_17 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_56_17 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_56_17 : Getting hard coded peers
+2014-06-03_16_56_17 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_56_17 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_56_21 : Getting peers from file
+2014-06-03_16_56_21 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_56_27 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_56_27 : Saving peer list to file
+2014-06-03_16_56_27 : ------------------------------
+2014-06-03_16_56_27 : Running action: updatePeerList
+2014-06-03_16_56_27 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_56_27 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_56_27 : Getting hard coded peers
+2014-06-03_16_56_27 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_56_27 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_56_31 : Getting peers from file
+2014-06-03_16_56_31 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_56_37 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_56_37 : Saving peer list to file
+2014-06-03_16_56_37 : ------------------------------
+2014-06-03_16_56_37 : Running action: updatePeerList
+2014-06-03_16_56_37 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_56_37 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_56_37 : Getting hard coded peers
+2014-06-03_16_56_37 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_56_37 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_56_41 : Getting peers from file
+2014-06-03_16_56_41 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_56_42 : Getting peers from file
+2014-06-03_16_56_42 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_56_47 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_56_47 : Saving peer list to file
+2014-06-03_16_56_47 : ------------------------------
+2014-06-03_16_56_47 : Running action: updatePeerList
+2014-06-03_16_56_47 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_56_47 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_56_47 : Getting hard coded peers
+2014-06-03_16_56_47 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_56_47 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_56_51 : Getting peers from file
+2014-06-03_16_56_51 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_56_57 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_56_57 : Saving peer list to file
+2014-06-03_16_56_57 : ------------------------------
+2014-06-03_16_56_57 : Running action: updatePeerList
+2014-06-03_16_56_57 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_56_57 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_56_57 : Getting hard coded peers
+2014-06-03_16_56_57 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_56_57 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_57_01 : Getting peers from file
+2014-06-03_16_57_01 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_57_07 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_57_07 : Saving peer list to file
+2014-06-03_16_57_07 : ------------------------------
+2014-06-03_16_57_07 : Running action: updatePeerList
+2014-06-03_16_57_07 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_57_07 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_57_07 : Getting hard coded peers
+2014-06-03_16_57_07 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_57_07 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_57_11 : Getting peers from file
+2014-06-03_16_57_11 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_57_17 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_57_17 : Saving peer list to file
+2014-06-03_16_57_17 : ------------------------------
+2014-06-03_16_57_17 : Running action: updatePeerList
+2014-06-03_16_57_17 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_57_17 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_57_17 : Getting hard coded peers
+2014-06-03_16_57_17 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_57_17 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_57_21 : Getting peers from file
+2014-06-03_16_57_21 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_57_27 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_57_27 : Saving peer list to file
+2014-06-03_16_57_27 : ------------------------------
+2014-06-03_16_57_27 : Running action: updatePeerList
+2014-06-03_16_57_27 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_57_27 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_57_27 : Getting hard coded peers
+2014-06-03_16_57_27 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_57_27 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_57_31 : Getting peers from file
+2014-06-03_16_57_31 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_57_37 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_57_37 : Saving peer list to file
+2014-06-03_16_57_37 : ------------------------------
+2014-06-03_16_57_37 : Running action: updatePeerList
+2014-06-03_16_57_37 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_57_37 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_57_37 : Getting hard coded peers
+2014-06-03_16_57_37 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_57_37 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_57_41 : Getting peers from file
+2014-06-03_16_57_41 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_57_47 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_57_47 : Saving peer list to file
+2014-06-03_16_57_47 : ------------------------------
+2014-06-03_16_57_47 : Running action: updatePeerList
+2014-06-03_16_57_47 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_57_47 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_57_47 : Getting hard coded peers
+2014-06-03_16_57_47 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_57_47 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_57_51 : Getting peers from file
+2014-06-03_16_57_51 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_57_57 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_57_57 : Saving peer list to file
+2014-06-03_16_57_57 : ------------------------------
+2014-06-03_16_57_57 : Running action: updatePeerList
+2014-06-03_16_57_57 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_57_57 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_57_57 : Getting hard coded peers
+2014-06-03_16_57_57 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_57_57 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_58_01 : Getting peers from file
+2014-06-03_16_58_01 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_58_07 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_58_07 : Saving peer list to file
+2014-06-03_16_58_07 : ------------------------------
+2014-06-03_16_58_07 : Running action: updatePeerList
+2014-06-03_16_58_07 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_58_07 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_58_07 : Getting hard coded peers
+2014-06-03_16_58_07 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_58_07 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_58_11 : Getting peers from file
+2014-06-03_16_58_11 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_58_17 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_58_17 : Saving peer list to file
+2014-06-03_16_58_17 : ------------------------------
+2014-06-03_16_58_17 : Running action: updatePeerList
+2014-06-03_16_58_21 : Getting peers from file
+2014-06-03_16_58_21 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_58_27 : Peer 1 is not responsive, remove it!
+2014-06-03_16_58_27 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_58_27 : Getting hard coded peers
+2014-06-03_16_58_27 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_58_27 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_58_27 : Saving peer list to file
+2014-06-03_16_58_27 : ------------------------------
+2014-06-03_16_58_27 : Running action: updatePeerList
+2014-06-03_16_58_27 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_58_27 : Getting hard coded peers
+2014-06-03_16_58_27 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_58_31 : Getting peers from file
+2014-06-03_16_58_31 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_58_37 : Peer 1 is not responsive, remove it!
+2014-06-03_16_58_37 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_58_37 : Saving peer list to file
+2014-06-03_16_58_37 : ------------------------------
+2014-06-03_16_58_37 : Running action: updatePeerList
+2014-06-03_16_58_37 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_58_37 : Getting hard coded peers
+2014-06-03_16_58_37 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_58_41 : Getting peers from file
+2014-06-03_16_58_41 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_58_47 : Peer 1 is not responsive, remove it!
+2014-06-03_16_58_47 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_58_47 : Saving peer list to file
+2014-06-03_16_58_47 : ------------------------------
+2014-06-03_16_58_47 : Running action: updatePeerList
+2014-06-03_16_58_47 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_58_47 : Getting hard coded peers
+2014-06-03_16_58_47 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_58_51 : Getting peers from file
+2014-06-03_16_58_51 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_58_57 : Peer 1 is not responsive, remove it!
+2014-06-03_16_58_57 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_58_57 : Saving peer list to file
+2014-06-03_16_58_57 : ------------------------------
+2014-06-03_16_58_57 : Running action: updatePeerList
+2014-06-03_16_58_57 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_58_57 : Getting hard coded peers
+2014-06-03_16_58_57 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_59_01 : Getting peers from file
+2014-06-03_16_59_01 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_59_07 : Peer 1 is not responsive, remove it!
+2014-06-03_16_59_07 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_59_07 : Saving peer list to file
+2014-06-03_16_59_07 : ------------------------------
+2014-06-03_16_59_07 : Running action: updatePeerList
+2014-06-03_16_59_07 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_59_07 : Getting hard coded peers
+2014-06-03_16_59_07 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_59_07 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_59_07 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_59_07 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_59_11 : Getting peers from file
+2014-06-03_16_59_11 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_59_11 : Getting peers from file
+2014-06-03_16_59_11 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_59_11 : Getting peers from file
+2014-06-03_16_59_11 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_59_17 : Saving peer list to file
+2014-06-03_16_59_17 : ------------------------------
+2014-06-03_16_59_17 : Running action: updatePeerList
+2014-06-03_16_59_17 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_59_17 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_59_17 : Getting hard coded peers
+2014-06-03_16_59_17 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_59_17 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_59_27 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_59_27 : Saving peer list to file
+2014-06-03_16_59_27 : ------------------------------
+2014-06-03_16_59_27 : Running action: updatePeerList
+2014-06-03_16_59_27 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_59_27 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_59_27 : Getting hard coded peers
+2014-06-03_16_59_27 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_59_27 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_59_31 : Getting peers from file
+2014-06-03_16_59_31 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_59_37 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_59_37 : Saving peer list to file
+2014-06-03_16_59_37 : ------------------------------
+2014-06-03_16_59_37 : Running action: updatePeerList
+2014-06-03_16_59_37 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_59_37 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_59_37 : Getting hard coded peers
+2014-06-03_16_59_37 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_59_37 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_59_41 : Getting peers from file
+2014-06-03_16_59_41 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_59_47 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_59_47 : Saving peer list to file
+2014-06-03_16_59_47 : ------------------------------
+2014-06-03_16_59_47 : Running action: updatePeerList
+2014-06-03_16_59_47 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_59_47 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_59_47 : Getting hard coded peers
+2014-06-03_16_59_47 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_59_47 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_16_59_51 : Getting peers from file
+2014-06-03_16_59_51 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_59_57 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_16_59_57 : Saving peer list to file
+2014-06-03_16_59_57 : ------------------------------
+2014-06-03_16_59_57 : Running action: updatePeerList
+2014-06-03_16_59_57 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_16_59_57 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_16_59_57 : Getting hard coded peers
+2014-06-03_16_59_57 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_16_59_57 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_17_00_01 : Getting peers from file
+2014-06-03_17_00_01 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_17_00_07 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_17_00_07 : Saving peer list to file
+2014-06-03_17_00_07 : ------------------------------
+2014-06-03_17_00_07 : Running action: updatePeerList

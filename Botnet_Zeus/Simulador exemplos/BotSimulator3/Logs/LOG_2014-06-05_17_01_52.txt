@@ -1,0 +1,33 @@
+Inicializacao do Arquivo de LOG - Timestamp 2014-06-05_17_01_52
+2014-06-05_17_01_53 : My Peer info3, Port:5053, Host:127.0.0.1
+2014-06-05_17_01_53 : Opening connections
+2014-06-05_17_01_53 : Getting hard coded peers
+2014-06-05_17_01_53 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-05_17_01_53 : Proxy Table is empty
+2014-06-05_17_01_53 : Bot initialization fully completed
+2014-06-05_17_01_53 : ------------------------------
+2014-06-05_17_01_53 : Running action: updatePeerList
+2014-06-05_17_02_03 : Peer 1 is not responsive, remove it!
+2014-06-05_17_02_03 : ------------------------------
+2014-06-05_17_02_03 : Running action: DGAMode
+2014-06-05_17_02_03 : ------------------------------
+2014-06-05_17_02_03 : Running action: timer
+2014-06-05_17_02_28 : Getting peers from file
+2014-06-05_17_05_03 : ------------------------------
+2014-06-05_17_05_03 : Running action: updatePeerList
+2014-06-05_17_05_03 : Hard coded peer 1 is responsive, add it to peers table and get peerList!
+2014-06-05_17_05_03 : Getting peerlist (127.0.0.1, 5051)
+2014-06-05_17_05_03 : Peer 2 is responsive, add it to get peerList!
+2014-06-05_17_05_13 : Getting peerlist (127.0.0.1, 5052)
+2014-06-05_17_05_13 : Saving peer list to file
+2014-06-05_17_05_13 : ------------------------------
+2014-06-05_17_05_13 : Running action: configuration
+2014-06-05_17_05_13 : Checking connectivity with Peer 1
+2014-06-05_17_05_13 : Peer 1 connected with version 3
+2014-06-05_17_05_13 : Checking connectivity with Peer 2
+2014-06-05_17_05_13 : Peer 2 connected with version 3
+2014-06-05_17_05_13 : Post to Controller Comand
+2014-06-05_17_05_13 : Configuring bot
+2014-06-05_17_05_13 : ------------------------------
+2014-06-05_17_05_13 : Running action: timer
+2014-06-05_17_05_26 : Getting peers from file

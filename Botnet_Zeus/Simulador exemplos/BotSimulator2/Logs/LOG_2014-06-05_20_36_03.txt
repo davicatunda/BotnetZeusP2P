@@ -1,0 +1,175 @@
+Inicializacao do Arquivo de LOG - Timestamp 2014-06-05_20_36_03
+2014-06-05_20_36_03 : My Peer info2, Port:5052, Host:127.0.0.1
+2014-06-05_20_36_04 : Opening connections
+2014-06-05_20_36_04 : Getting hard coded peers
+2014-06-05_20_36_04 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-05_20_36_04 : Proxy Table is empty
+2014-06-05_20_36_04 : Bot initialization fully completed
+2014-06-05_20_36_04 : ------------------------------
+2014-06-05_20_36_04 : Running action: updatePeerList
+2014-06-05_20_36_14 : Peer 1 is not responsive, remove it!
+2014-06-05_20_36_14 : ------------------------------
+2014-06-05_20_36_14 : Running action: DGAMode
+2014-06-05_20_36_14 : ------------------------------
+2014-06-05_20_36_14 : Running action: timer
+2014-06-05_20_36_30 : Getting peers from file
+2014-06-05_20_37_14 : ------------------------------
+2014-06-05_20_37_14 : Running action: updatePeerList
+2014-06-05_20_37_14 : Hard coded peer 1 is responsive, add it to peers table and get peerList!
+2014-06-05_20_37_14 : Getting peerlist (127.0.0.1, 5051)
+2014-06-05_20_37_14 : Peer 3 is responsive, add it to get peerList!
+2014-06-05_20_37_20 : Getting peers from file
+2014-06-05_20_37_24 : Getting peerlist (127.0.0.1, 5053)
+2014-06-05_20_37_24 : Saving peer list to file
+2014-06-05_20_37_24 : ------------------------------
+2014-06-05_20_37_24 : Running action: configuration
+2014-06-05_20_37_24 : Checking connectivity with Peer 1
+2014-06-05_20_37_24 : Peer 1 connected with version 3
+2014-06-05_20_37_24 : Checking connectivity with Peer 3
+2014-06-05_20_37_24 : Peer 3 connected with version 3
+2014-06-05_20_37_24 : Post to Controller Comand
+2014-06-05_20_37_24 : Configuring bot
+2014-06-05_20_37_24 : ------------------------------
+2014-06-05_20_37_24 : Running action: timer
+2014-06-05_20_38_24 : ------------------------------
+2014-06-05_20_38_24 : Running action: verificationRound
+2014-06-05_20_38_24 : Checking connectivity with Peer 1
+2014-06-05_20_38_24 : Peer 1 connected with version 3
+2014-06-05_20_38_24 : Checking connectivity with Peer 3
+2014-06-05_20_38_34 : Peer 3could not be reached
+2014-06-05_20_38_34 : 1 try to connect
+2014-06-05_20_38_44 : 2 try to connect
+2014-06-05_20_38_54 : 3 try to connect
+2014-06-05_20_39_04 : 4 try to connect
+2014-06-05_20_39_14 : 5 try to connect
+2014-06-05_20_39_24 : Check if this bot is Online
+2014-06-05_20_39_25 : bot is online, remove unresponsive peer
+2014-06-05_20_39_25 : Bot up to date
+2014-06-05_20_39_25 : ------------------------------
+2014-06-05_20_39_25 : Running action: timer
+2014-06-05_20_40_25 : ------------------------------
+2014-06-05_20_40_25 : Running action: updatePeerList
+2014-06-05_20_40_25 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-05_20_40_25 : Getting peerlist (127.0.0.1, 5051)
+2014-06-05_20_40_45 : Saving peer list to file
+2014-06-05_20_40_45 : ------------------------------
+2014-06-05_20_40_45 : Running action: configuration
+2014-06-05_20_40_45 : Checking connectivity with Peer 1
+2014-06-05_20_40_45 : Peer 1 connected with version 3
+2014-06-05_20_40_45 : Post to Controller Comand
+2014-06-05_20_40_45 : Configuring bot
+2014-06-05_20_40_45 : ------------------------------
+2014-06-05_20_40_45 : Running action: timer
+2014-06-05_20_40_51 : Getting peers from file
+2014-06-05_20_41_45 : ------------------------------
+2014-06-05_20_41_45 : Running action: updatePeerList
+2014-06-05_20_41_45 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-05_20_41_45 : Getting peerlist (127.0.0.1, 5051)
+2014-06-05_20_42_05 : Saving peer list to file
+2014-06-05_20_42_05 : ------------------------------
+2014-06-05_20_42_05 : Running action: configuration
+2014-06-05_20_42_05 : Checking connectivity with Peer 1
+2014-06-05_20_42_05 : Peer 1 connected with version 3
+2014-06-05_20_42_05 : Post to Controller Comand
+2014-06-05_20_42_05 : Configuring bot
+2014-06-05_20_42_05 : ------------------------------
+2014-06-05_20_42_05 : Running action: timer
+2014-06-05_20_42_11 : Getting peers from file
+2014-06-05_20_43_05 : ------------------------------
+2014-06-05_20_43_05 : Running action: updatePeerList
+2014-06-05_20_43_05 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-05_20_43_05 : Getting peerlist (127.0.0.1, 5051)
+2014-06-05_20_43_25 : Saving peer list to file
+2014-06-05_20_43_25 : ------------------------------
+2014-06-05_20_43_25 : Running action: configuration
+2014-06-05_20_43_25 : Checking connectivity with Peer 1
+2014-06-05_20_43_25 : Peer 1 connected with version 3
+2014-06-05_20_43_25 : Post to Controller Comand
+2014-06-05_20_43_25 : Configuring bot
+2014-06-05_20_43_25 : ------------------------------
+2014-06-05_20_43_25 : Running action: timer
+2014-06-05_20_43_31 : Getting peers from file
+2014-06-05_20_44_25 : ------------------------------
+2014-06-05_20_44_25 : Running action: updatePeerList
+2014-06-05_20_44_25 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-05_20_44_25 : Getting peerlist (127.0.0.1, 5051)
+2014-06-05_20_44_45 : Saving peer list to file
+2014-06-05_20_44_45 : ------------------------------
+2014-06-05_20_44_45 : Running action: configuration
+2014-06-05_20_44_45 : Checking connectivity with Peer 1
+2014-06-05_20_44_45 : Peer 1 connected with version 3
+2014-06-05_20_44_45 : Post to Controller Comand
+2014-06-05_20_44_45 : Configuring bot
+2014-06-05_20_44_45 : ------------------------------
+2014-06-05_20_44_45 : Running action: timer
+2014-06-05_20_44_51 : Getting peers from file
+2014-06-05_20_45_45 : ------------------------------
+2014-06-05_20_45_45 : Running action: updatePeerList
+2014-06-05_20_45_45 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-05_20_45_45 : Getting peerlist (127.0.0.1, 5051)
+2014-06-05_20_46_05 : Saving peer list to file
+2014-06-05_20_46_05 : ------------------------------
+2014-06-05_20_46_05 : Running action: configuration
+2014-06-05_20_46_05 : Checking connectivity with Peer 1
+2014-06-05_20_46_05 : Peer 1 connected with version 3
+2014-06-05_20_46_05 : Post to Controller Comand
+2014-06-05_20_46_05 : Configuring bot
+2014-06-05_20_46_05 : ------------------------------
+2014-06-05_20_46_05 : Running action: timer
+2014-06-05_20_46_11 : Getting peers from file
+2014-06-05_20_47_05 : ------------------------------
+2014-06-05_20_47_05 : Running action: updatePeerList
+2014-06-05_20_47_05 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-05_20_47_05 : Getting peerlist (127.0.0.1, 5051)
+2014-06-05_20_47_25 : Saving peer list to file
+2014-06-05_20_47_25 : ------------------------------
+2014-06-05_20_47_25 : Running action: configuration
+2014-06-05_20_47_25 : Checking connectivity with Peer 1
+2014-06-05_20_47_25 : Peer 1 connected with version 3
+2014-06-05_20_47_25 : Post to Controller Comand
+2014-06-05_20_47_25 : Configuring bot
+2014-06-05_20_47_25 : ------------------------------
+2014-06-05_20_47_25 : Running action: timer
+2014-06-05_20_47_31 : Getting peers from file
+2014-06-05_20_48_25 : ------------------------------
+2014-06-05_20_48_25 : Running action: updatePeerList
+2014-06-05_20_48_25 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-05_20_48_25 : Getting peerlist (127.0.0.1, 5051)
+2014-06-05_20_48_45 : Saving peer list to file
+2014-06-05_20_48_45 : ------------------------------
+2014-06-05_20_48_45 : Running action: configuration
+2014-06-05_20_48_45 : Checking connectivity with Peer 1
+2014-06-05_20_48_45 : Peer 1 connected with version 3
+2014-06-05_20_48_45 : Post to Controller Comand
+2014-06-05_20_48_45 : Configuring bot
+2014-06-05_20_48_45 : ------------------------------
+2014-06-05_20_48_45 : Running action: timer
+2014-06-05_20_48_51 : Getting peers from file
+2014-06-05_20_49_45 : ------------------------------
+2014-06-05_20_49_45 : Running action: updatePeerList
+2014-06-05_20_49_45 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-05_20_49_45 : Getting peerlist (127.0.0.1, 5051)
+2014-06-05_20_50_05 : Saving peer list to file
+2014-06-05_20_50_05 : ------------------------------
+2014-06-05_20_50_05 : Running action: configuration
+2014-06-05_20_50_05 : Checking connectivity with Peer 1
+2014-06-05_20_50_05 : Peer 1 connected with version 3
+2014-06-05_20_50_05 : Post to Controller Comand
+2014-06-05_20_50_05 : Configuring bot
+2014-06-05_20_50_05 : ------------------------------
+2014-06-05_20_50_05 : Running action: timer
+2014-06-05_20_50_11 : Getting peers from file
+2014-06-05_20_51_05 : ------------------------------
+2014-06-05_20_51_05 : Running action: updatePeerList
+2014-06-05_20_51_05 : Peer 1 is responsive, add it to peers table and get peerList!
+2014-06-05_20_51_05 : Getting peerlist (127.0.0.1, 5051)
+2014-06-05_20_51_25 : Saving peer list to file
+2014-06-05_20_51_25 : ------------------------------
+2014-06-05_20_51_25 : Running action: configuration
+2014-06-05_20_51_25 : Checking connectivity with Peer 1
+2014-06-05_20_51_25 : Peer 1 connected with version 3
+2014-06-05_20_51_25 : Post to Controller Comand
+2014-06-05_20_51_25 : Configuring bot
+2014-06-05_20_51_25 : ------------------------------
+2014-06-05_20_51_25 : Running action: timer
+2014-06-05_20_51_31 : Getting peers from file

@@ -1,0 +1,42 @@
+Inicializacao do Arquivo de LOG - Timestamp 2014-06-03_20_54_11
+2014-06-03_20_54_11 : My Peer info3, Port:5053, Host:127.0.0.1
+2014-06-03_20_54_11 : Opening connections
+2014-06-03_20_54_11 : Getting hard coded peers
+2014-06-03_20_54_11 : Peer 1 (5051, 127.0.0.1) founded
+2014-06-03_20_54_11 : Proxy Table is empty
+2014-06-03_20_54_11 : Bot initialization fully completed
+2014-06-03_20_54_11 : ------------------------------
+2014-06-03_20_54_11 : Running action: updatePeerList
+2014-06-03_20_54_21 : Peer 1 is not responsive, remove it!
+2014-06-03_20_54_21 : ------------------------------
+2014-06-03_20_54_21 : Running action: DGAMode
+2014-06-03_20_54_21 : ------------------------------
+2014-06-03_20_54_21 : Running action: timer
+2014-06-03_20_54_53 : Getting peers from file
+2014-06-03_20_55_21 : ------------------------------
+2014-06-03_20_55_21 : Running action: updatePeerList
+2014-06-03_20_55_21 : Hard coded peer 1 is responsive, add it to peers table and get peerList!
+2014-06-03_20_55_21 : Getting peerlist (127.0.0.1, 5051)
+2014-06-03_20_55_21 : Peer 2 is responsive, add it to get peerList!
+2014-06-03_20_55_31 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_20_55_31 : Saving peer list to file
+2014-06-03_20_55_31 : ------------------------------
+2014-06-03_20_55_31 : Running action: configuration
+2014-06-03_20_55_31 : Checking connectivity with Peer 1
+2014-06-03_20_55_31 : Peer 1 connected with version 3
+2014-06-03_20_55_31 : Checking connectivity with Peer 2
+2014-06-03_20_55_31 : Peer 2 connected with version 3
+2014-06-03_20_55_31 : Post to Controller Comand
+2014-06-03_20_55_31 : Configuring bot
+2014-06-03_20_55_31 : ------------------------------
+2014-06-03_20_55_31 : Running action: timer
+2014-06-03_20_55_35 : Getting peers from file
+2014-06-03_20_56_31 : ------------------------------
+2014-06-03_20_56_31 : Running action: verificationRound
+2014-06-03_20_56_31 : Checking connectivity with Peer 1
+2014-06-03_20_56_31 : Peer 1 connected with version 3
+2014-06-03_20_56_31 : Checking connectivity with Peer 2
+2014-06-03_20_56_31 : Peer 2 connected with version 3
+2014-06-03_20_56_31 : Bot up to date
+2014-06-03_20_56_31 : ------------------------------
+2014-06-03_20_56_31 : Running action: timer

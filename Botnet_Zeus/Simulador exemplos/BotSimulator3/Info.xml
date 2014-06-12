@@ -1,0 +1,12 @@
+<info>
+	<connection id="3">
+		<port>5053</port>
+		<host>127.0.0.1</host>
+	</connection>
+
+	<peerBot id="1">
+		<port>5051</port>
+		<host>127.0.0.1</host>
+	</peerBot>
+	
+</info>

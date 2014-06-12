@@ -1,0 +1,148 @@
+Inicializacao do Arquivo de LOG - Timestamp 2014-06-03_17_16_31
+2014-06-03_17_16_31 : My Peer info1, Port:5051, Host:127.0.0.1
+2014-06-03_17_16_31 : Getting hard coded peers
+2014-06-03_17_16_31 : Peer 2 (5052, 127.0.0.1) founded
+2014-06-03_17_16_31 : Peer 3 (5053, 127.0.0.1) founded
+2014-06-03_17_16_31 : Peer 4 (5054, 127.0.0.1) founded
+2014-06-03_17_16_31 : Proxy Table is empty
+2014-06-03_17_16_31 : Bot initialization fully completed
+2014-06-03_17_16_31 : Opening connections
+2014-06-03_17_16_32 : ------------------------------
+2014-06-03_17_16_32 : Running action: updatePeerList
+2014-06-03_17_16_32 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_17_16_32 : Peer 3 is responsive, add it to peers table and get peerList!
+2014-06-03_17_16_42 : Peer 4 is not responsive, remove it!
+2014-06-03_17_16_42 : Getting hard coded peers
+2014-06-03_17_16_42 : Peer 2 (5052, 127.0.0.1) founded
+2014-06-03_17_16_42 : Peer 3 (5053, 127.0.0.1) founded
+2014-06-03_17_16_42 : Peer 4 (5054, 127.0.0.1) founded
+2014-06-03_17_16_42 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_17_16_42 : Getting peerlist (127.0.0.1, 5053)
+2014-06-03_17_16_42 : Saving peer list to file
+2014-06-03_17_16_42 : ------------------------------
+2014-06-03_17_16_42 : Running action: configuration
+2014-06-03_17_16_42 : Checking connectivity with Peer 2
+2014-06-03_17_16_42 : Peer 2connected with version 3
+2014-06-03_17_16_42 : Checking connectivity with Peer 3
+2014-06-03_17_16_42 : Peer 3connected with version 3
+2014-06-03_17_16_42 : Post to Controller Comand
+2014-06-03_17_16_42 : Configuring bot
+2014-06-03_17_16_42 : ------------------------------
+2014-06-03_17_16_42 : Running action: timer
+2014-06-03_17_17_42 : ------------------------------
+2014-06-03_17_17_42 : Running action: verificationRound
+2014-06-03_17_17_42 : Checking connectivity with Peer 2
+2014-06-03_17_17_42 : Peer 2connected with version 3
+2014-06-03_17_17_42 : Checking connectivity with Peer 3
+2014-06-03_17_17_42 : Peer 3connected with version 3
+2014-06-03_17_17_42 : Bot up to date
+2014-06-03_17_17_42 : ------------------------------
+2014-06-03_17_17_42 : Running action: timer
+2014-06-03_17_18_42 : ------------------------------
+2014-06-03_17_18_42 : Running action: verificationRound
+2014-06-03_17_18_42 : Checking connectivity with Peer 2
+2014-06-03_17_18_42 : Peer 2connected with version 3
+2014-06-03_17_18_42 : Checking connectivity with Peer 3
+2014-06-03_17_18_42 : Peer 3connected with version 3
+2014-06-03_17_18_42 : Bot up to date
+2014-06-03_17_18_42 : ------------------------------
+2014-06-03_17_18_42 : Running action: timer
+2014-06-03_17_19_42 : ------------------------------
+2014-06-03_17_19_42 : Running action: verificationRound
+2014-06-03_17_19_42 : Checking connectivity with Peer 2
+2014-06-03_17_19_42 : Peer 2connected with version 3
+2014-06-03_17_19_42 : Checking connectivity with Peer 3
+2014-06-03_17_19_42 : Peer 3connected with version 3
+2014-06-03_17_19_42 : Bot up to date
+2014-06-03_17_19_42 : ------------------------------
+2014-06-03_17_19_42 : Running action: timer
+2014-06-03_17_20_42 : ------------------------------
+2014-06-03_17_20_42 : Running action: verificationRound
+2014-06-03_17_20_42 : Checking connectivity with Peer 2
+2014-06-03_17_20_42 : Peer 2connected with version 3
+2014-06-03_17_20_42 : Checking connectivity with Peer 3
+2014-06-03_17_20_42 : Peer 3connected with version 3
+2014-06-03_17_20_42 : Bot up to date
+2014-06-03_17_20_42 : ------------------------------
+2014-06-03_17_20_42 : Running action: timer
+2014-06-03_17_21_42 : ------------------------------
+2014-06-03_17_21_42 : Running action: verificationRound
+2014-06-03_17_21_42 : Checking connectivity with Peer 2
+2014-06-03_17_21_42 : Peer 2connected with version 3
+2014-06-03_17_21_42 : Checking connectivity with Peer 3
+2014-06-03_17_21_42 : Peer 3connected with version 3
+2014-06-03_17_21_42 : Bot up to date
+2014-06-03_17_21_42 : ------------------------------
+2014-06-03_17_21_42 : Running action: timer
+2014-06-03_17_22_42 : ------------------------------
+2014-06-03_17_22_42 : Running action: verificationRound
+2014-06-03_17_22_42 : Checking connectivity with Peer 2
+2014-06-03_17_22_42 : Peer 2connected with version 3
+2014-06-03_17_22_42 : Checking connectivity with Peer 3
+2014-06-03_17_22_42 : Peer 3connected with version 3
+2014-06-03_17_22_42 : Bot up to date
+2014-06-03_17_22_42 : ------------------------------
+2014-06-03_17_22_42 : Running action: timer
+2014-06-03_17_23_42 : ------------------------------
+2014-06-03_17_23_42 : Running action: verificationRound
+2014-06-03_17_23_42 : Checking connectivity with Peer 2
+2014-06-03_17_23_42 : Peer 2connected with version 3
+2014-06-03_17_23_42 : Checking connectivity with Peer 3
+2014-06-03_17_23_42 : Peer 3connected with version 3
+2014-06-03_17_23_42 : Bot up to date
+2014-06-03_17_23_42 : ------------------------------
+2014-06-03_17_23_42 : Running action: timer
+2014-06-03_17_24_42 : ------------------------------
+2014-06-03_17_24_42 : Running action: verificationRound
+2014-06-03_17_24_42 : Checking connectivity with Peer 2
+2014-06-03_17_24_42 : Peer 2connected with version 3
+2014-06-03_17_24_42 : Checking connectivity with Peer 3
+2014-06-03_17_24_42 : Peer 3connected with version 3
+2014-06-03_17_24_42 : Bot up to date
+2014-06-03_17_24_42 : ------------------------------
+2014-06-03_17_24_42 : Running action: timer
+2014-06-03_17_25_42 : ------------------------------
+2014-06-03_17_25_42 : Running action: verificationRound
+2014-06-03_17_25_42 : Checking connectivity with Peer 2
+2014-06-03_17_25_42 : Peer 2connected with version 3
+2014-06-03_17_25_42 : Checking connectivity with Peer 3
+2014-06-03_17_25_42 : Peer 3connected with version 3
+2014-06-03_17_25_42 : Bot up to date
+2014-06-03_17_25_42 : ------------------------------
+2014-06-03_17_25_42 : Running action: timer
+2014-06-03_17_26_42 : ------------------------------
+2014-06-03_17_26_42 : Running action: verificationRound
+2014-06-03_17_26_42 : Checking connectivity with Peer 2
+2014-06-03_17_26_42 : Peer 2connected with version 3
+2014-06-03_17_26_42 : Checking connectivity with Peer 3
+2014-06-03_17_26_42 : Peer 3connected with version 3
+2014-06-03_17_26_42 : Bot up to date
+2014-06-03_17_26_42 : ------------------------------
+2014-06-03_17_26_42 : Running action: timer
+2014-06-03_17_27_42 : ------------------------------
+2014-06-03_17_27_42 : Running action: verificationRound
+2014-06-03_17_27_42 : Checking connectivity with Peer 2
+2014-06-03_17_27_42 : Peer 2connected with version 3
+2014-06-03_17_27_42 : Checking connectivity with Peer 3
+2014-06-03_17_27_42 : Peer 3connected with version 3
+2014-06-03_17_27_42 : Bot up to date
+2014-06-03_17_27_42 : ------------------------------
+2014-06-03_17_27_42 : Running action: timer
+2014-06-03_17_28_42 : ------------------------------
+2014-06-03_17_28_42 : Running action: verificationRound
+2014-06-03_17_28_42 : Checking connectivity with Peer 2
+2014-06-03_17_28_42 : Peer 2connected with version 3
+2014-06-03_17_28_42 : Checking connectivity with Peer 3
+2014-06-03_17_28_42 : Peer 3connected with version 3
+2014-06-03_17_28_42 : Bot up to date
+2014-06-03_17_28_42 : ------------------------------
+2014-06-03_17_28_42 : Running action: timer
+2014-06-03_17_29_42 : ------------------------------
+2014-06-03_17_29_42 : Running action: verificationRound
+2014-06-03_17_29_42 : Checking connectivity with Peer 2
+2014-06-03_17_29_42 : Peer 2connected with version 3
+2014-06-03_17_29_42 : Checking connectivity with Peer 3
+2014-06-03_17_29_42 : Peer 3connected with version 3
+2014-06-03_17_29_42 : Bot up to date
+2014-06-03_17_29_42 : ------------------------------
+2014-06-03_17_29_42 : Running action: timer

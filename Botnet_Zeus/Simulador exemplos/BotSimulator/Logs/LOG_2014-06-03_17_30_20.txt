@@ -1,0 +1,21 @@
+Inicializacao do Arquivo de LOG - Timestamp 2014-06-03_17_30_20
+2014-06-03_17_30_20 : My Peer info1, Port:5051, Host:127.0.0.1
+2014-06-03_17_30_20 : Getting hard coded peers
+2014-06-03_17_30_20 : Peer 2 (5052, 127.0.0.1) founded
+2014-06-03_17_30_20 : Peer 3 (5053, 127.0.0.1) founded
+2014-06-03_17_30_20 : Peer 4 (5054, 127.0.0.1) founded
+2014-06-03_17_30_20 : Proxy Table is empty
+2014-06-03_17_30_20 : Bot initialization fully completed
+2014-06-03_17_30_23 : Opening connections
+2014-06-03_17_30_23 : ------------------------------
+2014-06-03_17_30_23 : Running action: updatePeerList
+2014-06-03_17_30_23 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-03_17_30_23 : Peer 3 is responsive, add it to peers table and get peerList!
+2014-06-03_17_30_33 : Peer 4 is not responsive, remove it!
+2014-06-03_17_30_33 : Getting hard coded peers
+2014-06-03_17_30_33 : Peer 2 (5052, 127.0.0.1) founded
+2014-06-03_17_30_33 : Peer 3 (5053, 127.0.0.1) founded
+2014-06-03_17_30_33 : Peer 4 (5054, 127.0.0.1) founded
+2014-06-03_17_30_33 : Getting peerlist (127.0.0.1, 5052)
+2014-06-03_17_30_33 : Getting peerlist (127.0.0.1, 5053)
+2014-06-03_17_30_33 : Saving peer list to file

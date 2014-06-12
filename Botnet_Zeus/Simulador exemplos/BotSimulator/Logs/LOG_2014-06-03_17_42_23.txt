@@ -1,0 +1,2 @@
+Inicializacao do Arquivo de LOG - Timestamp 2014-06-03_17_42_23
+2014-06-03_17_42_23 : Opening connections

@@ -1,0 +1,70 @@
+Inicializacao do Arquivo de LOG - Timestamp 2014-06-05_17_02_18
+2014-06-05_17_02_18 : My Peer info1, Port:5051, Host:127.0.0.1
+2014-06-05_17_02_18 : Opening connections
+2014-06-05_17_02_18 : Getting hard coded peers
+2014-06-05_17_02_18 : Peer 2 (5052, 127.0.0.1) founded
+2014-06-05_17_02_18 : Peer 3 (5053, 127.0.0.1) founded
+2014-06-05_17_02_18 : Peer 4 (5054, 127.0.0.1) founded
+2014-06-05_17_02_18 : Proxy Table is empty
+2014-06-05_17_02_18 : Bot initialization fully completed
+2014-06-05_17_02_18 : ------------------------------
+2014-06-05_17_02_18 : Running action: updatePeerList
+2014-06-05_17_02_18 : Hard coded peer 2 is responsive, add it to peers table and get peerList!
+2014-06-05_17_02_18 : Hard coded peer 3 is responsive, add it to peers table and get peerList!
+2014-06-05_17_02_28 : Peer 4 is not responsive, remove it!
+2014-06-05_17_02_28 : Getting peerlist (127.0.0.1, 5052)
+2014-06-05_17_02_28 : Getting peerlist (127.0.0.1, 5053)
+2014-06-05_17_02_28 : Saving peer list to file
+2014-06-05_17_02_28 : ------------------------------
+2014-06-05_17_02_28 : Running action: configuration
+2014-06-05_17_02_28 : Checking connectivity with Peer 2
+2014-06-05_17_02_28 : Peer 2 connected with version 3
+2014-06-05_17_02_28 : Checking connectivity with Peer 3
+2014-06-05_17_02_28 : Peer 3 connected with version 3
+2014-06-05_17_02_28 : Post to Controller Comand
+2014-06-05_17_02_28 : Configuring bot
+2014-06-05_17_02_28 : ------------------------------
+2014-06-05_17_02_28 : Running action: timer
+2014-06-05_17_05_03 : Getting peers from file
+2014-06-05_17_05_16 : Getting peers from file
+2014-06-05_17_05_28 : ------------------------------
+2014-06-05_17_05_28 : Running action: verificationRound
+2014-06-05_17_05_28 : Checking connectivity with Peer 2
+2014-06-05_17_05_28 : Peer 2 connected with version 3
+2014-06-05_17_05_28 : Checking connectivity with Peer 3
+2014-06-05_17_05_28 : Peer 3 connected with version 3
+2014-06-05_17_05_28 : Bot up to date
+2014-06-05_17_05_28 : ------------------------------
+2014-06-05_17_05_28 : Running action: timer
+2014-06-05_17_08_28 : ------------------------------
+2014-06-05_17_08_28 : Running action: verificationRound
+2014-06-05_17_08_28 : Checking connectivity with Peer 2
+2014-06-05_17_08_28 : Peer 2 connected with version 3
+2014-06-05_17_08_28 : Checking connectivity with Peer 3
+2014-06-05_17_08_38 : Peer 3could not be reached
+2014-06-05_17_08_38 : 1 try to connect
+2014-06-05_17_08_48 : 2 try to connect
+2014-06-05_17_08_58 : 3 try to connect
+2014-06-05_17_09_08 : 4 try to connect
+2014-06-05_17_09_18 : 5 try to connect
+2014-06-05_17_09_29 : Check if this bot is Online
+2014-06-05_17_09_29 : bot is online, remove unresponsive peer
+2014-06-05_17_09_29 : Bot up to date
+2014-06-05_17_09_29 : ------------------------------
+2014-06-05_17_09_29 : Running action: timer
+2014-06-05_17_12_27 : Getting peers from file
+2014-06-05_17_12_29 : ------------------------------
+2014-06-05_17_12_29 : Running action: updatePeerList
+2014-06-05_17_12_29 : Peer 2 is responsive, add it to peers table and get peerList!
+2014-06-05_17_12_39 : Peer 3 is not responsive, remove it!
+2014-06-05_17_12_49 : Peer 4 is not responsive, remove it!
+2014-06-05_17_12_49 : Getting peerlist (127.0.0.1, 5052)
+2014-06-05_17_12_49 : Saving peer list to file
+2014-06-05_17_12_49 : ------------------------------
+2014-06-05_17_12_49 : Running action: configuration
+2014-06-05_17_12_49 : Checking connectivity with Peer 2
+2014-06-05_17_12_49 : Peer 2 connected with version 3
+2014-06-05_17_12_49 : Post to Controller Comand
+2014-06-05_17_12_49 : Configuring bot
+2014-06-05_17_12_49 : ------------------------------
+2014-06-05_17_12_49 : Running action: timer
