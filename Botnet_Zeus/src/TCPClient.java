@@ -8,11 +8,7 @@ public class TCPClient {
 	int port;
 	public TCPClient (String IP, int port){
 		this.IP=IP;
-<<<<<<< HEAD
 		this.port = port;
-=======
-		this.port=port;
->>>>>>> branch 'master' of https://github.com/davicm/BotnetZeusP2P.git
 	}
 
     public Object sendRequest(String request){

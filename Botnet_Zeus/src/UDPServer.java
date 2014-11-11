@@ -2,7 +2,6 @@ import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
-<<<<<<< HEAD
 import java.util.HashMap;
 import java.util.Map;
 
@@ -67,72 +66,6 @@ public class UDPServer extends Thread {
 			Peer peer = entry.getValue();
 			int id = entry.getKey();
 			response += id + " " + peer.port + " " + peer.host + "\n";
-=======
-import java.util.Map;
-
-public class UDPServer extends Thread {
-	int port;
-	XMLHandler handle;
-
-	public UDPServer(int port, XMLHandler handle) {
-		this.port = port;
-		this.handle = handle;
-	}
-
-	public void run() {
-		try {
-			DatagramSocket serverSocket = new DatagramSocket(port);
-			byte[] receiveData = new byte[1024];
-			byte[] sendData = new byte[1024];
-
-			while (sendData != receiveData) {
-				DatagramPacket receivePacket = new DatagramPacket(receiveData,
-						receiveData.length);
-				// It will be stuck here until some client connect
-				serverSocket.receive(receivePacket);
-
-				String request = new String(receivePacket.getData(), 0,
-						receivePacket.getLength());
-				String response="";
-				switch (request) {
-				case "peerListRequest":
-					 response = sendPeerList();
-					break;
-				case "getVersion":
-					response = sendVersion();
-					break;
-				default:
-					System.out.println("Cliente>> " + request);
-					response = request;
-					break;
-				}
-
-				System.out.println("RECEIVED: " + request);
-				InetAddress IPAddress = receivePacket.getAddress();
-				sendData = response.getBytes();
-				
-				DatagramPacket sendPacket = new DatagramPacket(sendData,
-						sendData.length, IPAddress, receivePacket.getPort());
-				serverSocket.send(sendPacket);
-
-			}
-			serverSocket.close();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-	}
-
-	private String sendVersion() {
-		return ""+handle.getVersion();
-	}
-
-	private String sendPeerList() {
-		String response = "";
-		for (Map.Entry<Integer, Peer> entry : handle.getHardcodedPeerList().entrySet()) {
-			Peer peer = entry.getValue();
-			int id = entry.getKey();
-			response += id + " " + peer.port + " " + peer.host + "/n";
->>>>>>> branch 'master' of https://github.com/davicm/BotnetZeusP2P.git
 		}
 		return response;
 

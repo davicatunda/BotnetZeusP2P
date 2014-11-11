@@ -32,11 +32,8 @@ public class Peer {
 	public HashMap<Integer, Peer> getPeerList() {
 		HashMap<Integer, Peer> peerList = new HashMap<Integer, Peer>();
 		String response = (String) udp.sendRequest("peerListRequest");
-<<<<<<< HEAD
 		if(response.equals("peerListIsEmpty"))
 			return null;
-=======
->>>>>>> branch 'master' of https://github.com/davicm/BotnetZeusP2P.git
 		Scanner in = new Scanner(response);
 		while (in.hasNext()) {
 			int id = in.nextInt();
